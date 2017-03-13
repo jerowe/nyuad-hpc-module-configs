@@ -1,6 +1,6 @@
 # Software
 
-| | gencore_annotation-1.0-0 | gencore_base-1.0-0 | gencore_build_1.0-None-0 | gencore_de_novo_genomic_1.0-None-0 | gencore_de_novo_genomic_soapdenovo2_1.0-None-0 | gencore_de_novo_metagenomic_1.0-None-0 | gencore_de_novo_transcriptome_1.0-None-0 | gencore_epigenetics_1.0-None-0 | gencore_evonet_1.0-None-0 | gencore_kraken_1.0-None-0 | gencore_metagenomics_1.0-None-0 | gencore_perl_5.22.0-None-0 | gencore_python_1.0-None-0 | gencore_qc_1.0-None-0 | gencore_qiime_1.0-None-0 | gencore_r_3.3.1-None-0 | gencore_rad_1.0-None-0 | gencore_rad_ddocent_1.0-None-0 | gencore_rnaseq_1.0-None-0 | gencore_rnaseq_malaria_1.0-None-0 | gencore_test_1.0-1.0-0 | gencore_trinity_1.0-None-0 | gencore_variant_detection_1.0-None-0 | test_1.0-None-0-0 |
+| | gencore_annotation-1.0-1 | gencore_base-1.0-1 | gencore_build-1.0-1 | gencore_de_novo_genomic-1.0-0 | gencore_de_novo_genomic_soapdenovo2-1.0-0 | gencore_de_novo_metagenomic-1.0-0 | gencore_de_novo_transcriptome-1.0-0 | gencore_epigenetics-1.0-0 | gencore_evonet-1.0-0 | gencore_kraken-1.0-0 | gencore_metagenomics_1.0-None-0 | gencore_perl-1.0-0 | gencore_python-1.0-0 | gencore_qc-1.0-0 | gencore_qiime-1.0-0 | gencore_r_3.3.1-None-0 | gencore_rad_1.0-None-0 | gencore_rad_ddocent_1.0-None-0 | gencore_rnaseq_1.0-None-0 | gencore_rnaseq_malaria_1.0-None-0 | gencore_test_1.0-1.0-0 | gencore_trinity_1.0-None-0 | gencore_variant_detection-1.0-0 | test_1.0-None-0-0 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---  |
 | abyss=1.9.0 | | | | **Y** | | | | | | | | | | | | | | | | | | | | |
 | augustus=3.2.2 | **Y** | | | **Y** | | **Y** | **Y** | | | | **Y** | | | | | | | | | | | | | |
@@ -10,7 +10,8 @@
 | bcftools=1.3.1 | **Y** | | | **Y** | | **Y** | **Y** | **Y** | | | **Y** | | | | | | **Y** | | **Y** | **Y** | | | **Y** | |
 | bedtools=2.25.0 | **Y** | | | **Y** | | **Y** | **Y** | **Y** | | | **Y** | | | | | | **Y** | | **Y** | **Y** | | | **Y** | |
 | bioconductor-ballgown=2.2.0 | | | | | | | | | | | | | | | | | | | **Y** | | | | | |
-| bioconductor-biobase=latest | | | | | | | | | | | | | | | | **Y** | | | | | | | **Y** | |
+| bioconductor-biobase=2.3.2 | | | | | | | | | | | | | | | | | | | | | | | **Y** | |
+| bioconductor-biobase=latest | | | | | | | | | | | | | | | | **Y** | | | | | | | | |
 | bioconductor-biocgenerics=latest | | **Y** | | | | | | | | | | | | | | | | | | | | | | |
 | bioconductor-biovizbase=1.18.0 | | | | | | | | | | | | | | | | | | | **Y** | | | | | |
 | bioconductor-cummerbund=2.12.1 | | | | | | | | | | | | | | | | | | | | **Y** | | | | |
@@ -92,13 +93,14 @@
 | numpy=latest | | | | | | | | | | | | | **Y** | | | | | | | | | | | |
 | pauda=1.0.1 | **Y** | | | | | | | | | | | | | | | | | | | | | | | |
 | pear=0.9.6 | | | | **Y** | | **Y** | **Y** | | | | **Y** | | | | | | | | | | | | **Y** | |
-| perl-app-cpanminus=latest | **Y** | **Y** | **Y** | | | | | | | | | **Y** | | | | | | | | | | | | **Y** |
-| perl-biox-workflow-plugin-filedetails=0.11 | **Y** | **Y** | **Y** | **Y** | **Y** | **Y** | **Y** | **Y** | **Y** | | | | | **Y** | | | **Y** | **Y** | **Y** | **Y** | | **Y** | **Y** | |
-| perl-biox-workflow-plugin-fileexists=0.13 | **Y** | **Y** | **Y** | **Y** | **Y** | **Y** | **Y** | **Y** | **Y** | | **Y** | | | **Y** | **Y** | | **Y** | **Y** | **Y** | **Y** | | **Y** | **Y** | |
-| perl-biox-workflow=1.10 | **Y** | **Y** | **Y** | **Y** | **Y** | **Y** | **Y** | **Y** | **Y** | | **Y** | | | **Y** | **Y** | | **Y** | **Y** | **Y** | **Y** | | **Y** | **Y** | |
+| perl-app-cpanminus=latest | **Y** | **Y** | **Y** | **Y** | | | | | | **Y** | | **Y** | | | | | | | | | | | **Y** | **Y** |
+| perl-biox-workflow-plugin-filedetails=0.11 | **Y** | **Y** | **Y** | **Y** | **Y** | **Y** | **Y** | **Y** | **Y** | **Y** | | **Y** | | **Y** | | | **Y** | **Y** | **Y** | **Y** | | **Y** | **Y** | |
+| perl-biox-workflow-plugin-fileexists=0.13 | **Y** | **Y** | **Y** | **Y** | **Y** | **Y** | **Y** | **Y** | **Y** | **Y** | **Y** | **Y** | | **Y** | **Y** | | **Y** | **Y** | **Y** | **Y** | | **Y** | **Y** | |
+| perl-biox-workflow=1.10 | **Y** | **Y** | | **Y** | **Y** | **Y** | **Y** | **Y** | **Y** | **Y** | **Y** | **Y** | | **Y** | **Y** | | **Y** | **Y** | **Y** | **Y** | | **Y** | **Y** | |
 | perl-dbi=latest | | | | | | | | | | | | **Y** | | | | | | | | | | | | |
-| perl-hpc-runner-command=3.0.1 | **Y** | **Y** | | | | | | | | | | | | | | | | | | | | | | |
-| perl-hpc-runner-slurm=2.58 | | | **Y** | **Y** | **Y** | **Y** | **Y** | **Y** | **Y** | | **Y** | | | **Y** | **Y** | | **Y** | **Y** | **Y** | **Y** | | **Y** | **Y** | |
+| perl-hpc-runner-command=3.0.1 | | | | | | | | | | | | | | | | | | | | | | | **Y** | |
+| perl-hpc-runner-command=3.1.1 | **Y** | **Y** | **Y** | **Y** | **Y** | **Y** | **Y** | **Y** | **Y** | **Y** | | **Y** | | **Y** | **Y** | | | | | | | | | |
+| perl-hpc-runner-slurm=2.58 | | | | | | | | | | | **Y** | | | | | | **Y** | **Y** | **Y** | **Y** | | **Y** | | |
 | perl-termreadkey=latest | | | | | | | | | | | | **Y** | | | | | | | | | | | | |
 | picard=2.0.1 | | | | | | | | | | | | | | | | | | | | **Y** | | | | |
 | picard=2.5.0 | | | | **Y** | | **Y** | **Y** | | | | | | | | | | | | **Y** | | | | **Y** | |
@@ -110,11 +112,11 @@
 | python=3.5 | | | | | | | | | | | | | | **Y** | | | | | | | | | | |
 | python=latest | | | | | | | | | | | | | **Y** | | | | | | | | | | | |
 | qiime=1.9.1 | | | | | | | | | | | | | | | **Y** | | | | | | | | | |
+| qualimap=2.2.2a | | | | | | | | | | | | | | **Y** | | | | | | | | | | |
 | quast=4.1 | | | | **Y** | | | **Y** | | | | | | | | | | | | | | | | | |
 | r-base=3.3.1 | | **Y** | | | | | | | | | | | | | | **Y** | | | **Y** | **Y** | | | **Y** | |
 | r-cairo=latest | | | | | | | | | | | | | | | | | | | **Y** | | | | | |
-| r-essentials=3.3.1 | | | | | | | | | | | | | | | | | | | | | | | **Y** | |
-| r-essentials=latest | | | | | | | | | | | | | | | | **Y** | | | **Y** | **Y** | | | | |
+| r-essentials=latest | | | | | | | | | | | | | | | | **Y** | | | **Y** | **Y** | | | **Y** | |
 | r-ggplot2=latest | | **Y** | | | | | | | | | | | | | | | | | | | | | | |
 | r=3.3.1 | | | | | | | | | | | | | | | | **Y** | | | | | | | | |
 | rainbow=2.0.4 | | | | | | | | | | | | | | | | | **Y** | | | | | | | |
