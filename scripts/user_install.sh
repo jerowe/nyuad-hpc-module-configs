@@ -40,13 +40,11 @@ conda config --add create_default_packages setuptools
 conda config --add create_default_packages ipython
 
 #Add default channels
+conda config --add channel nyuad-cgsb
 conda config --add channels conda-forge
 conda config --add channels defaults
 conda config --add channels r
 conda config --add channels bioconda
-
-#Install conda env
-conda install conda-env
 
 #########################################################
 # 3. Install Software Stacks
