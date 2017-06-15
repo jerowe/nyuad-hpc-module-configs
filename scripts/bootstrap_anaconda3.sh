@@ -101,6 +101,7 @@ echo ""
 echo "export PATH=${ANACONDA3_BASE}/bin:${PATH}"
 echo ""
 
+echo "===================================================================="
 echo "To see the full list of nyuad-cgsb analysis modules - please head over to: "
 echo "https://anaconda.org/nyuad-cgsb/environments"
 echo "Or"
