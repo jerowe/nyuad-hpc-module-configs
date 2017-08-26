@@ -36,7 +36,7 @@ A powerful toolset for genome arithmetic
 
 
 ### bioconductor-biobase
-**Version:** 2.3.2
+**Version:** 2.32.0
 
 **Conda Channel:** bioconda
 
@@ -82,16 +82,6 @@ Fast and sensitive read alignment
 
 #### Summary:
 The BWA read mapper.
-
-
-
-### circos
-**Version:** 0.69.2
-
-**Conda Channel:** bioconda
-
-#### Summary:
-Circos is a software package for visualizing data and information. It visualizes data in a circular layout
 
 
 
@@ -142,16 +132,6 @@ Bayesian haplotype-based polymorphism discovery and genotyping
 
 #### Summary:
 The full Genome Analysis Toolkit (GATK) framework, license restricted.
-
-
-
-### gencore_variant_detection_docs
-**Version:** 1.0
-
-**Conda Channel:** nyuad-cgsb
-
-#### Summary:
-
 
 
 

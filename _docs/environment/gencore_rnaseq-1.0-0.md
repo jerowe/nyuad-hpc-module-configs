@@ -135,13 +135,13 @@ Fast and sensitive read alignment
 
 
 
-### cufflinks
+### cufflinks-patch
 **Version:** 2.2.1
 
-**Conda Channel:** bioconda
+**Conda Channel:** nyuad-cgsb
 
 #### Summary:
-Transcriptome assembly and differential expression analysis for RNA-Seq.
+Transcriptome assembly and differential expression analysis for RNA-Seq
 
 
 
@@ -162,16 +162,6 @@ A quality control tool for high throughput sequence data.
 
 #### Summary:
 The full Genome Analysis Toolkit (GATK) framework, license restricted.
-
-
-
-### gencore_rnaseq_docs
-**Version:** 1.0
-
-**Conda Channel:** nyuad-cgsb
-
-#### Summary:
-
 
 
 

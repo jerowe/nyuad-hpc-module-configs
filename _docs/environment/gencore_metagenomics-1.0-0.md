@@ -1,9 +1,19 @@
-# gencore_rad
+# gencore_metagenomics
 ## Summary
 
 Coming soon!
 
 ## Software Packages
+
+### augustus
+**Version:** 3.2.2
+
+**Conda Channel:** bioconda
+
+#### Summary:
+AUGUSTUS is a gene prediction program for eukaryotes written by Mario Stanke and Oliver Keller. It can be used as an ab initio program, which means it bases its prediction purely on the sequence. AUGUSTUS may also incorporate hints on the gene structure coming from extrinsic sources such as EST, MS/MS, protein alignments and synthenic genomic alignments.
+
+
 
 ### bamtools
 **Version:** 2.4.0
@@ -32,6 +42,16 @@ Tools for dealing with BCF and VCF files
 
 #### Summary:
 A powerful toolset for genome arithmetic
+
+
+
+### bioconductor-dada2
+**Version:** 1.0.3
+
+**Conda Channel:** bioconda
+
+#### Summary:
+Exact sample inference from Illumina amplicon data. Resolves real variants differing by as little as one nucleotide.
 
 
 
@@ -65,6 +85,16 @@ Fast and sensitive read alignment
 
 
 
+### bwa
+**Version:** 0.7.15
+
+**Conda Channel:** bioconda
+
+#### Summary:
+The BWA read mapper.
+
+
+
 ### cd-hit
 **Version:** 4.6.4
 
@@ -75,23 +105,43 @@ Clusters and compares protein or nucleotide sequences
 
 
 
-### freebayes
-**Version:** 1.0.2.29
+### hmmer
+**Version:** 3.1b2
 
 **Conda Channel:** bioconda
 
 #### Summary:
-Bayesian haplotype-based polymorphism discovery and genotyping
+Biosequence analysis using profile hidden Markov models
 
 
 
-### perl-biox-workflow-plugin-filedetails
-**Version:** 0.11
+### mawk
+**Version:** 1.3.4
 
 **Conda Channel:** bioconda
 
 #### Summary:
-Get metadata for files in directories processed by BioX::Workflow
+mawk is an interpreter for the AWK Programming Language.
+
+
+
+### mothur
+**Version:** 1.36.1
+
+**Conda Channel:** bioconda
+
+#### Summary:
+
+
+
+
+### pear
+**Version:** 0.9.6
+
+**Conda Channel:** bioconda
+
+#### Summary:
+paired-end read merger
 
 
 
@@ -125,16 +175,6 @@ A very opinionated template based workflow writer.
 
 
 
-### rainbow
-**Version:** 2.0.4
-
-**Conda Channel:** bioconda
-
-#### Summary:
-Efficient tool for clustering and assembling short reads, especially for RAD
-
-
-
 ### samtools
 **Version:** 1.3.1
 
@@ -152,16 +192,6 @@ Tools for dealing with SAM, BAM and CRAM files
 
 #### Summary:
 Seqtk is a fast and lightweight tool for processing sequences in the FASTA or FASTQ format
-
-
-
-### stacks
-**Version:** 1.40
-
-**Conda Channel:** bioconda
-
-#### Summary:
-Stacks is a software pipeline for building loci from RAD-seq
 
 
 

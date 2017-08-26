@@ -31,7 +31,7 @@ AUGUSTUS is a gene prediction program for eukaryotes written by Mario Stanke and
 * gencore_de_novo_genomic-1.0-0
 * gencore_de_novo_metagenomic-1.0-0
 * gencore_de_novo_transcriptome-1.0-0
-* gencore_metagenomics_1.0-None-0
+* gencore_metagenomics-1.0-0
 
 
 ## Autoconf
@@ -81,7 +81,7 @@ C++ API & command-line toolkit for working with BAM data
 * gencore_de_novo_metagenomic-1.0-0
 * gencore_de_novo_transcriptome-1.0-0
 * gencore_epigenetics-1.0-0
-* gencore_metagenomics_1.0-None-0
+* gencore_metagenomics-1.0-0
 * gencore_rad-1.0-0
 * gencore_rnaseq-1.0-0
 * gencore_rnaseq_malaria-1.0-0
@@ -105,7 +105,7 @@ Tools for dealing with BCF and VCF files
 * gencore_de_novo_metagenomic-1.0-0
 * gencore_de_novo_transcriptome-1.0-0
 * gencore_epigenetics-1.0-0
-* gencore_metagenomics_1.0-None-0
+* gencore_metagenomics-1.0-0
 * gencore_rad-1.0-0
 * gencore_rnaseq-1.0-0
 * gencore_rnaseq_malaria-1.0-0
@@ -129,7 +129,7 @@ A powerful toolset for genome arithmetic
 * gencore_de_novo_metagenomic-1.0-0
 * gencore_de_novo_transcriptome-1.0-0
 * gencore_epigenetics-1.0-0
-* gencore_metagenomics_1.0-None-0
+* gencore_metagenomics-1.0-0
 * gencore_rad-1.0-0
 * gencore_rnaseq-1.0-0
 * gencore_rnaseq_malaria-1.0-0
@@ -157,7 +157,7 @@ A powerful toolset for genome arithmetic
 
 Functions that are needed by many other packages or which replace R functions.
 
-**Version:** 2.3.2
+**Version:** 2.32.0
 
 **Conda Channel:** bioconda
 
@@ -253,7 +253,7 @@ Exact sample inference from Illumina amplicon data. Resolves real variants diffe
 
 ### HPC Modules
 
-* gencore_metagenomics_1.0-None-0
+* gencore_metagenomics-1.0-0
 
 
 ## Bioconductor-deseq2
@@ -381,7 +381,7 @@ BLAST+ is a new suite of BLAST tools that utilizes the NCBI C++ Toolkit.
 * gencore_de_novo_genomic-1.0-0
 * gencore_de_novo_metagenomic-1.0-0
 * gencore_de_novo_transcriptome-1.0-0
-* gencore_metagenomics_1.0-None-0
+* gencore_metagenomics-1.0-0
 * gencore_rad-1.0-0
 * gencore_variant_detection-1.0-1
 
@@ -402,7 +402,7 @@ BLAT is a bioinformatics software tool which performs rapid mRNA/DNA and cross-s
 * gencore_de_novo_genomic-1.0-0
 * gencore_de_novo_metagenomic-1.0-0
 * gencore_de_novo_transcriptome-1.0-0
-* gencore_metagenomics_1.0-None-0
+* gencore_metagenomics-1.0-0
 * gencore_rad-1.0-0
 * gencore_rnaseq-1.0-0
 * gencore_rnaseq_malaria-1.0-0
@@ -426,7 +426,7 @@ Fast and sensitive read alignment
 * gencore_de_novo_metagenomic-1.0-0
 * gencore_de_novo_transcriptome-1.0-0
 * gencore_epigenetics-1.0-0
-* gencore_metagenomics_1.0-None-0
+* gencore_metagenomics-1.0-0
 * gencore_rad-1.0-0
 * gencore_rnaseq-1.0-0
 * gencore_rnaseq_malaria-1.0-0
@@ -450,7 +450,7 @@ The BWA read mapper.
 * gencore_de_novo_metagenomic-1.0-0
 * gencore_de_novo_transcriptome-1.0-0
 * gencore_epigenetics-1.0-0
-* gencore_metagenomics_1.0-None-0
+* gencore_metagenomics-1.0-0
 * gencore_variant_detection-1.0-1
 
 
@@ -466,7 +466,7 @@ Clusters and compares protein or nucleotide sequences
 
 ### HPC Modules
 
-* gencore_metagenomics_1.0-None-0
+* gencore_metagenomics-1.0-0
 * gencore_rad-1.0-0
 
 
@@ -486,7 +486,6 @@ Circos is a software package for visualizing data and information. It visualizes
 * gencore_de_novo_genomic-1.0-0
 * gencore_de_novo_metagenomic-1.0-0
 * gencore_de_novo_transcriptome-1.0-0
-* gencore_variant_detection-1.0-1
 
 
 ## Cmake
@@ -504,6 +503,21 @@ CMake is an extensible, open-source system that manages the build process
 * gencore_build-1.0-1
 
 
+## Cufflinks-patch
+
+### Summary
+
+Transcriptome assembly and differential expression analysis for RNA-Seq
+
+**Version:** 2.2.1
+
+**Conda Channel:** nyuad-cgsb
+
+### HPC Modules
+
+* gencore_rnaseq-1.0-0
+
+
 ## Cufflinks
 
 ### Summary
@@ -517,7 +531,6 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 ### HPC Modules
 
 * gencore_de_novo_transcriptome-1.0-0
-* gencore_rnaseq-1.0-0
 * gencore_rnaseq_malaria-1.0-0
 * gencore_variant_detection-1.0-1
 
@@ -712,337 +725,6 @@ genBlast is a program suite, consisting of two programs: genBlastA and genBlastG
 * gencore_de_novo_genomic-1.0-0
 
 
-## Gencore_annotation_docs
-
-### Summary
-
-
-
-**Version:** 1.0
-
-**Conda Channel:** nyuad-cgsb
-
-### HPC Modules
-
-* gencore_annotation-1.0-1
-
-
-## Gencore_base_docs
-
-### Summary
-
-
-
-**Version:** 1.0
-
-**Conda Channel:** nyuad-cgsb
-
-### HPC Modules
-
-* gencore_base-1.0-1
-* gencore_test_1.0-1.0-0
-
-
-## Gencore_build_docs
-
-### Summary
-
-
-
-**Version:** 1.0
-
-**Conda Channel:** nyuad-cgsb
-
-### HPC Modules
-
-* gencore_build-1.0-1
-
-
-## Gencore_de_novo_genomic_docs
-
-### Summary
-
-
-
-**Version:** 1.0
-
-**Conda Channel:** nyuad-cgsb
-
-### HPC Modules
-
-* gencore_de_novo_genomic-1.0-0
-
-
-## Gencore_de_novo_genomic_soapdenovo2_docs
-
-### Summary
-
-
-
-**Version:** 1.0
-
-**Conda Channel:** nyuad-cgsb
-
-### HPC Modules
-
-* gencore_de_novo_genomic_soapdenovo2-1.0-0
-
-
-## Gencore_de_novo_metagenomic_docs
-
-### Summary
-
-
-
-**Version:** 1.0
-
-**Conda Channel:** nyuad-cgsb
-
-### HPC Modules
-
-* gencore_de_novo_metagenomic-1.0-0
-
-
-## Gencore_de_novo_transcriptome_docs
-
-### Summary
-
-
-
-**Version:** 1.0
-
-**Conda Channel:** nyuad-cgsb
-
-### HPC Modules
-
-* gencore_de_novo_transcriptome-1.0-0
-
-
-## Gencore_epigenetics_docs
-
-### Summary
-
-
-
-**Version:** 1.0
-
-**Conda Channel:** nyuad-cgsb
-
-### HPC Modules
-
-* gencore_epigenetics-1.0-0
-
-
-## Gencore_evonet_docs
-
-### Summary
-
-
-
-**Version:** 1.0
-
-**Conda Channel:** nyuad-cgsb
-
-### HPC Modules
-
-* gencore_evonet-1.0-0
-
-
-## Gencore_kraken_docs
-
-### Summary
-
-
-
-**Version:** 1.0
-
-**Conda Channel:** nyuad-cgsb
-
-### HPC Modules
-
-* gencore_kraken-1.0-0
-
-
-## Gencore_metagenomics_docs
-
-### Summary
-
-
-
-**Version:** 1.0
-
-**Conda Channel:** nyuad-cgsb
-
-### HPC Modules
-
-* gencore_metagenomics_1.0-None-0
-
-
-## Gencore_perl_docs
-
-### Summary
-
-
-
-**Version:** 5.22.0
-
-**Conda Channel:** nyuad-cgsb
-
-### HPC Modules
-
-* gencore_perl-1.0-0
-
-
-## Gencore_python_docs
-
-### Summary
-
-
-
-**Version:** 1.0
-
-**Conda Channel:** nyuad-cgsb
-
-### HPC Modules
-
-* gencore_python-1.0-0
-
-
-## Gencore_qc_docs
-
-### Summary
-
-
-
-**Version:** 1.0
-
-**Conda Channel:** nyuad-cgsb
-
-### HPC Modules
-
-* gencore_qc-1.0-0
-
-
-## Gencore_qiime_docs
-
-### Summary
-
-
-
-**Version:** 1.0
-
-**Conda Channel:** nyuad-cgsb
-
-### HPC Modules
-
-* gencore_qiime-1.0-0
-
-
-## Gencore_r_docs
-
-### Summary
-
-
-
-**Version:** 3.3.1
-
-**Conda Channel:** nyuad-cgsb
-
-### HPC Modules
-
-* gencore_r-3.3.1-0
-
-
-## Gencore_rad_ddocent_docs
-
-### Summary
-
-
-
-**Version:** 1.0
-
-**Conda Channel:** nyuad-cgsb
-
-### HPC Modules
-
-* gencore_rad_ddocent-1.0-0
-
-
-## Gencore_rad_docs
-
-### Summary
-
-
-
-**Version:** 1.0
-
-**Conda Channel:** nyuad-cgsb
-
-### HPC Modules
-
-* gencore_rad-1.0-0
-
-
-## Gencore_rnaseq_docs
-
-### Summary
-
-
-
-**Version:** 1.0
-
-**Conda Channel:** nyuad-cgsb
-
-### HPC Modules
-
-* gencore_rnaseq-1.0-0
-
-
-## Gencore_rnaseq_malaria_docs
-
-### Summary
-
-
-
-**Version:** 1.0
-
-**Conda Channel:** nyuad-cgsb
-
-### HPC Modules
-
-* gencore_rnaseq_malaria-1.0-0
-
-
-## Gencore_trinity_docs
-
-### Summary
-
-
-
-**Version:** 1.0
-
-**Conda Channel:** nyuad-cgsb
-
-### HPC Modules
-
-* gencore_trinity-1.0-0
-
-
-## Gencore_variant_detection_docs
-
-### Summary
-
-
-
-**Version:** 1.0
-
-**Conda Channel:** nyuad-cgsb
-
-### HPC Modules
-
-* gencore_variant_detection-1.0-1
-
-
 ## Hisat2
 
 ### Summary
@@ -1074,7 +756,7 @@ Biosequence analysis using profile hidden Markov models
 * gencore_de_novo_genomic-1.0-0
 * gencore_de_novo_metagenomic-1.0-0
 * gencore_de_novo_transcriptome-1.0-0
-* gencore_metagenomics_1.0-None-0
+* gencore_metagenomics-1.0-0
 
 
 ## Htseq
@@ -1275,7 +957,7 @@ mawk is an interpreter for the AWK Programming Language.
 ### HPC Modules
 
 * gencore_de_novo_metagenomic-1.0-0
-* gencore_metagenomics_1.0-None-0
+* gencore_metagenomics-1.0-0
 
 
 ## Mcl
@@ -1381,7 +1063,7 @@ MIRA is a whole genome shotgun and EST sequence assembler for Sanger, 454, Solex
 ### HPC Modules
 
 * gencore_de_novo_metagenomic-1.0-0
-* gencore_metagenomics_1.0-None-0
+* gencore_metagenomics-1.0-0
 
 
 ## Multiqc
@@ -1459,7 +1141,7 @@ paired-end read merger
 * gencore_de_novo_genomic-1.0-0
 * gencore_de_novo_metagenomic-1.0-0
 * gencore_de_novo_transcriptome-1.0-0
-* gencore_metagenomics_1.0-None-0
+* gencore_metagenomics-1.0-0
 * gencore_variant_detection-1.0-1
 
 
@@ -1538,7 +1220,7 @@ a plugin to BioX::Workflow
 * gencore_epigenetics-1.0-0
 * gencore_evonet-1.0-0
 * gencore_kraken-1.0-0
-* gencore_metagenomics_1.0-None-0
+* gencore_metagenomics-1.0-0
 * gencore_perl-1.0-0
 * gencore_qc-1.0-0
 * gencore_qiime-1.0-0
@@ -1571,7 +1253,7 @@ A very opinionated template based workflow writer.
 * gencore_epigenetics-1.0-0
 * gencore_evonet-1.0-0
 * gencore_kraken-1.0-0
-* gencore_metagenomics_1.0-None-0
+* gencore_metagenomics-1.0-0
 * gencore_perl-1.0-0
 * gencore_qc-1.0-0
 * gencore_qiime-1.0-0
@@ -1620,6 +1302,7 @@ Database independent interface for Perl
 * gencore_epigenetics-1.0-0
 * gencore_evonet-1.0-0
 * gencore_kraken-1.0-0
+* gencore_metagenomics-1.0-0
 * gencore_perl-1.0-0
 * gencore_qc-1.0-0
 * gencore_qiime-1.0-0
@@ -1630,21 +1313,6 @@ Database independent interface for Perl
 * gencore_rnaseq_malaria-1.0-0
 * gencore_trinity-1.0-0
 * gencore_variant_detection-1.0-1
-
-
-## Perl-hpc-runner-slurm
-
-### Summary
-
-Job Submission to Slurm
-
-**Version:** 2.58
-
-**Conda Channel:** bioconda
-
-### HPC Modules
-
-* gencore_metagenomics_1.0-None-0
 
 
 ## Perl-termreadkey
@@ -2025,7 +1693,7 @@ Tools for dealing with SAM, BAM and CRAM files
 * gencore_de_novo_metagenomic-1.0-0
 * gencore_de_novo_transcriptome-1.0-0
 * gencore_epigenetics-1.0-0
-* gencore_metagenomics_1.0-None-0
+* gencore_metagenomics-1.0-0
 * gencore_rad-1.0-0
 * gencore_rnaseq-1.0-0
 * gencore_rnaseq_malaria-1.0-0
@@ -2062,7 +1730,7 @@ Seqtk is a fast and lightweight tool for processing sequences in the FASTA or FA
 * gencore_de_novo_genomic-1.0-0
 * gencore_de_novo_metagenomic-1.0-0
 * gencore_de_novo_transcriptome-1.0-0
-* gencore_metagenomics_1.0-None-0
+* gencore_metagenomics-1.0-0
 * gencore_rad-1.0-0
 * gencore_rnaseq-1.0-0
 * gencore_rnaseq_malaria-1.0-0
@@ -2341,7 +2009,7 @@ Command-line tools for manipulating VCF files
 * gencore_de_novo_metagenomic-1.0-0
 * gencore_de_novo_transcriptome-1.0-0
 * gencore_epigenetics-1.0-0
-* gencore_metagenomics_1.0-None-0
+* gencore_metagenomics-1.0-0
 * gencore_rad-1.0-0
 * gencore_rnaseq-1.0-0
 * gencore_rnaseq_malaria-1.0-0
@@ -2365,7 +2033,7 @@ A set of tools written in Perl and C++ for working with VCF files.
 * gencore_de_novo_metagenomic-1.0-0
 * gencore_de_novo_transcriptome-1.0-0
 * gencore_epigenetics-1.0-0
-* gencore_metagenomics_1.0-None-0
+* gencore_metagenomics-1.0-0
 * gencore_rad-1.0-0
 * gencore_rnaseq-1.0-0
 * gencore_rnaseq_malaria-1.0-0
