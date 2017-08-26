@@ -25,7 +25,7 @@ ORIGIN="https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/${GITHUB_USER}/${GITHU
 git remote rm origin
 git remote add origin "$ORIGIN"
 
-git add -A
+#git add -A
 git pull origin "$TRAVIS_BRANCH"
 
 git add _easybuild
