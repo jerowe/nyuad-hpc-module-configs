@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -e # Exit with nonzero exit code if anything fails
+set -xe # Exit with nonzero exit code if anything fails
 
 export PATH=/anaconda/bin:$PATH
 
@@ -32,16 +32,20 @@ then
     anaconda login --user $ANACONDA_USER --password $ANACONDA_PASSWORD
     conda config --set anaconda_upload yes
 
+    echo "Gencore App build ebs"
     cd /nyuad-conda-configs
     gencore_app build_eb
 
+    echo "Gencore App building docs"
     cd /nyuad-conda-configs
     gencore_app build_docs
 
+    echo "Commit docs to github"
     cd /nyuad-conda-configs
     scripts/build_easybuild.sh
     scripts/build_docs.sh
 
+    echo "Building man pages!"
     cd /nyuad-conda-configs
     gencore_app build_man
 

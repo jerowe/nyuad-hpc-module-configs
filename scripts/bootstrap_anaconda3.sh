@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-#!/bin/bash
 
 # Define help function
 function help(){

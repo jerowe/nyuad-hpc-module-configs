@@ -1,0 +1,13 @@
+name: gencore_biosails
+version: 1.0
+build: 1
+channels:
+- bioconda
+- r
+- defaults
+- conda-forge
+- nyuad-cgsb
+dependencies:
+- perl-app-cpanminus
+- perl-hpc-runner-command=3.2.10
+- perl-biox-workflow-command=2.2.1

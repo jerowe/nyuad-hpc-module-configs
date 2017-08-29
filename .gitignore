@@ -9,3 +9,6 @@ scripts/gencore_app/gencore_app.egg-info
 /build
 scripts/gencore_app/gencore_app/__pycache__
 scripts/gencore_app/gencore_app/commands/__pycache__
+
+new-github-token
+set_env.sh

@@ -14,17 +14,16 @@ echo "Recommiting recipes"
 
 git status
 
-git config  user.email "nobody@nobody.org"
-git config  user.name "Travis CI"
+git config  user.email "jillian.e.rowe@gmail.com"
+git config  user.name "jerowe"
 
 git add _docs
 
 ORIGIN="https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/${GITHUB_USER}/${GITHUB_REPO}.git"
 git remote rm origin
 git remote add origin "$ORIGIN"
-git checkout "$TRAVIS_BRANCH"
 
 git add recipes
 #IF it doesn't exit as 0 its because there is nothing to commit
 git commit  -m "Updated recipes  ${TRAVIS_COMMIT}." || exit 0
-git push -f "$ORIGIN" "$TRAVIS_BRANCH"
+git push -f origin "$TRAVIS_BRANCH"
