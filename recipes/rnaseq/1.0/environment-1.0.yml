@@ -1,6 +1,6 @@
 name: gencore_rnaseq
 version: 1.0
-build: 0
+build: 1
 
 channels:
 - bioconda
@@ -9,10 +9,6 @@ channels:
 - conda-forge
 - nyuad-cgsb
 dependencies:
-- perl-hpc-runner-command=3.1.1
-- perl-biox-workflow=1.10
-- perl-biox-workflow-plugin-fileexists=0.13
-- perl-biox-workflow-plugin-filedetails=0.11
 - samtools=1.3.1
 - bcftools=1.3.1
 - kallisto=0.43.0
