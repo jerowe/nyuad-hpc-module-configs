@@ -8,7 +8,6 @@ channels:
 - defaults
 - conda-forge
 - nyuad-cgsb
-
 dependencies:
 - samtools ==1.3.1
 - bcftools ==1.3.1
