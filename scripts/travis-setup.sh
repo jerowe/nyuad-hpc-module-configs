@@ -28,7 +28,7 @@ conda config --add channels nyuad-cgsb
 # conda config --add channels file://home/travis/anaconda3/conda-bld
 conda update --all -y
 
-conda install python=3
+conda install python=3.5
 conda install conda conda-build
 conda install -y r-base r-essentials openjdk perl bioconductor-biobase nodejs
 npm install -g marked-man
