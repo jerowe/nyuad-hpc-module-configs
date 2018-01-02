@@ -10,7 +10,7 @@ conda config --add channels r
 conda config --add channels bioconda
 
 
-conda update -y
+conda update --all -y
 
 conda install -y pip
 conda install conda conda-build
