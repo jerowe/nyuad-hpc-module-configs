@@ -9,7 +9,7 @@ set -e
 #     exit 0
 # fi
 
-pip install pyyaml
+# pip install pyyaml
 
 sudo chown -R $USER /opt/anaconda3
 
