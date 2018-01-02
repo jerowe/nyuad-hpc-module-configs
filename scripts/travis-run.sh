@@ -57,6 +57,6 @@ then
     scripts/commit_recipes.sh
 else
     #Just test packages
-    # gencore_app build_envs
-    git diff FETCH_HEAD --name-only | grep yml | grep recipes | xargs -I {} gencore_app build_envs -e {}
+    gencore_app build_envs
+    # git diff FETCH_HEAD --name-only | grep yml | grep recipes | xargs -I {} gencore_app build_envs -e {}
 fi
