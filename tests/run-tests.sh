@@ -10,6 +10,8 @@ conda config --add channels r
 conda config --add channels bioconda
 
 
+conda update -y
+
 conda install -y pip
 conda install conda conda-build
 
@@ -57,4 +59,3 @@ else
     #Just test packages
     gencore_app build_envs
 fi
-
