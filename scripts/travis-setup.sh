@@ -33,4 +33,4 @@ conda install -y r-base r-essentials openjdk perl bioconductor-biobase nodejs
 npm install -g marked-man
 
 conda install -y pip
-pip install git+https://github.com/nyuad-cgsb/gencore_app.git@master
+/home/travis/anaconda3/bin/pip install git+https://github.com/nyuad-cgsb/gencore_app.git@master
