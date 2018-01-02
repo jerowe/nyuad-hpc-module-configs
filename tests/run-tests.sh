@@ -19,7 +19,7 @@ pip install git+https://github.com/nyuad-cgsb/gencore_app.git@master
 
 cd /nyuad-conda-configs
 
-#git fetch origin master
+git fetch origin master
 #export RECIPES=$(git diff FETCH_HEAD --name-only | grep yml | grep recipes)
 #
 #echo "Processing recipes..."
@@ -55,6 +55,6 @@ then
     scripts/commit_recipes.sh
 else
     #Just test packages
-    # gencore_app build_envs
+    #gencore_app build_envs
     git --no-pager diff --name-only master  | grep .yml | xargs -I {} gencore_app build_envs -e {}
 fi
