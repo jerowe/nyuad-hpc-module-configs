@@ -55,6 +55,6 @@ then
     scripts/commit_recipes.sh
 else
     #Just test packages
-    gencore_app build_envs
+    # gencore_app build_envs
+    git --no-pager diff --name-only master  | grep .yml | xargs -I {} gencore_app build_envs -e {}
 fi
-
