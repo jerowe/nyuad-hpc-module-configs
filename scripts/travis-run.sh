@@ -58,8 +58,8 @@ then
     scripts/commit_recipes.sh
 else
     #Just test packages
-    python --version
-    gencore_app --help
     gencore_app build_envs
     # git diff FETCH_HEAD --name-only | grep yml | grep recipes | xargs -I {} gencore_app build_envs -e {}
 fi
+
+exit 0
