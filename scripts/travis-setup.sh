@@ -26,6 +26,8 @@ conda config --add channels nyuad-cgsb
 
 conda update --all -y
 
+##These are all added to the travis cache
+
 conda install python=3.5
 conda install conda conda-build anaconda-client
 conda install -y r-base r-essentials openjdk perl bioconductor-biobase nodejs gnuplot
