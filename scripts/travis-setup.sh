@@ -34,4 +34,5 @@ conda install -y r-base r-essentials openjdk perl bioconductor-biobase nodejs
 npm install -g marked-man
 
 conda install -y pip
+/home/travis/anaconda3/bin/pip remove gencore_app || echo "Gencore app is not installed" 
 /home/travis/anaconda3/bin/pip install git+https://github.com/nyuad-cgsb/gencore_app.git@master
