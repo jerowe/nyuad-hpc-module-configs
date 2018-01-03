@@ -9,9 +9,10 @@ if [[ -z "${GITHUB_TOKEN}" ]] ; then
     exit 0
 fi
 
-cd /nyuad-conda-configs
+#cd /nyuad-conda-configs
 
 #At least we can test if this works
+##TODO Make these separate github repos
 mkdir -p _easybuild
 
 git status
