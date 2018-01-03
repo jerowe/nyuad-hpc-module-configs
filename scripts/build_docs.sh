@@ -12,7 +12,7 @@ fi
 # Build the documentation
 #GITHUB_USERNAME=${TRAVIS_REPO_SLUG%/*}
 
-cd /nyuad-conda-configs
+#cd /nyuad-conda-configs
 
 #At least we can test if this works
 mkdir -p _docs
