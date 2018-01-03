@@ -1,27 +1,24 @@
 #!/bin/bash
 
+# set -euo pipefail
+#
+# if [[ $TRAVIS_OS_NAME = "linux" ]]
+# then
+#
+#     docker run -e TRAVIS_PULL_REQUEST -e TRAVIS_BRANCH \
+#         -e GITHUB_TOKEN -e GITHUB_USER -e GITHUB_REPO \
+#         -e ANACONDA_TOKEN -e ANACONDA_PASSWORD -e ANACONDA_USER \
+#         -i -t -v `pwd`:/nyuad-conda-configs quay.io/nyuad_cgsb/anaconda-centos /nyuad-conda-configs/tests/run-tests.sh
+#
+# else
+#     exit 0
+# fi
 set -xe # Exit with nonzero exit code if anything fails
 
-export PATH=/anaconda/bin:$PATH
+export BASE_DIR=`pwd`
+export PATH="/home/travis/anaconda3/bin:$PATH"
 
-conda config --add channels conda-forge
-conda config --add channels defaults
-conda config --add channels r
-conda config --add channels bioconda
-
-
-conda update --all -y
-
-conda install -y pip
-conda install conda conda-build
-
-
-pip install git+https://github.com/nyuad-cgsb/gencore_app.git@master
-
-
-cd /nyuad-conda-configs
-
-#git fetch origin master
+git fetch origin master
 #export RECIPES=$(git diff FETCH_HEAD --name-only | grep yml | grep recipes)
 #
 #echo "Processing recipes..."
@@ -35,20 +32,24 @@ then
     conda config --set anaconda_upload yes
 
     echo "Gencore App build ebs"
-    cd /nyuad-conda-configs
+    # cd /nyuad-conda-configs
+    cd $BASE_DIR
     gencore_app build_eb
 
     echo "Gencore App building docs"
-    cd /nyuad-conda-configs
+    # cd /nyuad-conda-configs
+    cd $BASE_DIR
     gencore_app build_docs
 
     echo "Commit docs to github"
-    cd /nyuad-conda-configs
+    # cd /nyuad-conda-configs
+    cd $BASE_DIR
     scripts/build_easybuild.sh
     scripts/build_docs.sh
 
     echo "Building man pages!"
-    cd /nyuad-conda-configs
+    # cd /nyuad-conda-configs
+    cd $BASE_DIR
     gencore_app build_man
 
     echo "Uploading packages to anaconda!"
@@ -58,4 +59,7 @@ then
 else
     #Just test packages
     gencore_app build_envs
+    # git diff FETCH_HEAD --name-only | grep yml | grep recipes | xargs -I {} gencore_app build_envs -e {}
 fi
+
+exit 0
