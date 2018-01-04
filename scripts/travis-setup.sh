@@ -31,7 +31,7 @@ conda update --all -y
 conda install python=3.5
 conda install conda conda-build anaconda-client
 conda install -y r-base r-essentials openjdk perl bioconductor-biobase nodejs gnuplot
-conda install -y samtools bamtools tophat bcftools freebayes gatk
+conda install -y samtools bamtools bcftools freebayes gatk
 npm install -g marked-man
 
 conda install -y pip
