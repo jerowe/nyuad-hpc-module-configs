@@ -30,8 +30,8 @@ conda update --all -y
 
 conda install conda conda-build anaconda-client pip setuptools
 conda install -y r-base r-essentials
-conda install -y openjdk perl bioconductor-biobase blast bedtools
 conda install -y nodejs gnuplot samtools bamtools bcftools freebayes gatk
+conda install -y openjdk perl bioconductor-biobase blast bedtools
 
 npm install -g marked-man
 
