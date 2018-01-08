@@ -29,8 +29,10 @@ conda update --all -y
 ##These are all added to the travis cache
 
 conda install python=3.5
-conda install conda conda-build anaconda-client
-conda install -y r-base r-essentials openjdk perl bioconductor-biobase nodejs gnuplot
+conda install -y conda conda-build anaconda-client pip setuptools
+conda install -y r-base r-essentials nodejs
+conda install -y gnuplot samtools bamtools bcftools freebayes gatk
+conda install -y openjdk perl bioconductor-biobase blast bedtools
 npm install -g marked-man
 
 conda install -y pip
