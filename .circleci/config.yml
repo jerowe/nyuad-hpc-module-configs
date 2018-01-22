@@ -18,6 +18,3 @@ jobs:
           command: |
             scripts/travis-run.sh
             test:
-  test:
-    override:
-      - echo "no tests"
