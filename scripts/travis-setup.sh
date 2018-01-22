@@ -11,12 +11,12 @@ set -e
 
 # pip install pyyaml
 
-sudo chown -R $USER /opt/anaconda3
+# sudo chown -R $USER /opt/anaconda3
 
-wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh --quiet -O miniconda.sh
-bash miniconda.sh -b -p /home/travis/anaconda3
-
-export PATH="/home/travis/anaconda3/bin:$PATH"
+# wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh --quiet -O miniconda.sh
+# bash miniconda.sh -b -p $HOME/anaconda3
+#
+# export PATH="$HOME/anaconda3/bin:$PATH"
 
 conda config --set always_yes yes --set changeps1 no
 conda config --add channels r
@@ -29,10 +29,11 @@ conda update --all -y
 ##These are all added to the travis cache
 
 conda install python=3.5
-conda install conda conda-build anaconda-client
-conda install -y r-base r-essentials openjdk perl bioconductor-biobase nodejs gnuplot
+conda install -y conda conda-build anaconda-client pip setuptools
+conda install -y r-base r-essentials nodejs r-ggplot2
+conda install -y gnuplot samtools bamtools bcftools freebayes gatk
+conda install -y openjdk perl bioconductor-biobase blast bedtools
 npm install -g marked-man
 
-conda install -y pip
-/home/travis/anaconda3/bin/pip remove gencore_app || echo "Gencore app is not installed"
+/home/travis/anaconda3/bin/pip uninstall gencore_app || echo "Gencore app is not installed"
 /home/travis/anaconda3/bin/pip install git+https://github.com/nyuad-cgsb/gencore_app.git@master

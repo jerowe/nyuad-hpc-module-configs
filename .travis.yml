@@ -12,6 +12,7 @@ services:
 - docker
 install: scripts/travis-setup.sh
 cache:
+  timeout: 1000
   directories:
   - "/opt/anaconda3/pkgs"
 jobs:
