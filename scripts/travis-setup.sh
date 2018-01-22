@@ -24,7 +24,6 @@ conda config --add channels conda-forge
 conda config --add channels bioconda
 conda config --add channels nyuad-cgsb
 
-mkdir -p $HOME/anaconda3/pkgs
 mkdir -p $HOME/anaconda3/conda-bld
 
 conda update --all -y
