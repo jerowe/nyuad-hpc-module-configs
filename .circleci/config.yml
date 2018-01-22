@@ -23,9 +23,6 @@ machine:
     CONDA_XZ: "5.2"
     # MINICONDA_VER: '4.3.21'
 
-  cache_directories:
-    - "~/anaconda3/pkgs"
-
 jobs:
   build:
     docker:
@@ -33,7 +30,7 @@ jobs:
     working_directory: ~/repo
     steps:
       - checkout
-      - run:           conda info 
+      - run:           conda info
       - run:
           name:        install dependencies
           command:     |
