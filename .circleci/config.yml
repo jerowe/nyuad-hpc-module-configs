@@ -33,9 +33,7 @@ jobs:
     working_directory: ~/repo
     steps:
       - checkout
-      - run:           echo "A first hello"
-      - run:           echo pwd
-      - run:           ls -lah
+      - run:           conda info 
       - run:
           name:        install dependencies
           command:     |
