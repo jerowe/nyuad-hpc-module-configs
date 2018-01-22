@@ -51,6 +51,10 @@ jobs:
       - checkout
       - run:           conda info
       - run:
+          name:        check user
+          command:     |
+            echo $ANACONDA_USER
+      - run:
           name:        install dependencies
           command:     |
             scripts/travis-setup.sh
