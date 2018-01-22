@@ -24,6 +24,8 @@ git fetch origin master
 #echo $RECIPES
 #echo ""
 
+##TRAVIS_BRANCH
+##CIRCLE_BRANCH
 if [[ $TRAVIS_BRANCH = "master" && "$TRAVIS_PULL_REQUEST" = false ]]
 then
     #Upload packages
