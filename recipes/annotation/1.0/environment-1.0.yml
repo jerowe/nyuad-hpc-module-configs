@@ -27,7 +27,7 @@ dependencies:
 - snpeff=4.3
 - genblasta=1.0.4
 - genblastg=1.38
-# - jellyfish=2.2.3
+- jellyfish=2.2.3
 # - kat=2.0.8
 # - kmergenie=1.7016
 # - freebayes=1.0.2.29
