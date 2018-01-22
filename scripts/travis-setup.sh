@@ -35,5 +35,5 @@ conda install -y gnuplot samtools bamtools bcftools freebayes gatk
 conda install -y openjdk perl bioconductor-biobase blast bedtools
 npm install -g marked-man
 
-/home/travis/anaconda3/bin/pip uninstall gencore_app || echo "Gencore app is not installed"
-/home/travis/anaconda3/bin/pip install git+https://github.com/nyuad-cgsb/gencore_app.git@master
+pip uninstall gencore_app || echo "Gencore app is not installed"
+pip install git+https://github.com/nyuad-cgsb/gencore_app.git@master
