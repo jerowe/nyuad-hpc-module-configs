@@ -18,11 +18,14 @@ set -e
 #
 # export PATH="$HOME/anaconda3/bin:$PATH"
 
+
 conda config --set always_yes yes --set changeps1 no
 conda config --add channels r
 conda config --add channels conda-forge
 conda config --add channels bioconda
 conda config --add channels nyuad-cgsb
+
+mkdir -p $HOME/anaconda3/conda-bld
 
 conda update --all -y
 
@@ -35,5 +38,5 @@ conda install -y gnuplot samtools bamtools bcftools freebayes gatk
 conda install -y openjdk perl bioconductor-biobase blast bedtools
 npm install -g marked-man
 
-/home/travis/anaconda3/bin/pip uninstall gencore_app || echo "Gencore app is not installed"
-/home/travis/anaconda3/bin/pip install git+https://github.com/nyuad-cgsb/gencore_app.git@master
+pip uninstall gencore_app || echo "Gencore app is not installed"
+pip install git+https://github.com/nyuad-cgsb/gencore_app.git@master
