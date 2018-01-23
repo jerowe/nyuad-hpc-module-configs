@@ -1,7 +1,5 @@
 version:                       2
-
 machine:
-
   environment:
     CIRCLE_ENV:                test
     CONDA_BLD_PATH:            '~/anaconda3/conda-bld'
@@ -21,8 +19,6 @@ machine:
     CONDA_ZLIB:                "1.2.8"
     CONDA_BZIP2:               "1.0"
     CONDA_XZ:                  "5.2"
-    # MINICONDA_VER:           '4.3.21'
-
 jobs:
   build:
     docker:
@@ -49,6 +45,11 @@ jobs:
     working_directory:         ~/repo
     steps:
       - checkout
+      - run:                   ls -lah ~/
+      - run:
+          name:                circle env
+          command:             |
+            env |grep CIRCLE
       - run:                   conda info
       - run:
           name:                check user
