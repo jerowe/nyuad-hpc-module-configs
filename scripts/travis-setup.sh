@@ -33,12 +33,12 @@ conda update --all -y
 
 conda install python=3
 conda install -y conda conda-build anaconda-client pip setuptools
-conda install -y pip nodejs gnuplot
+conda install -y pip gnuplot
 conda install -y samtools bamtools bcftools freebayes gatk
 conda install -y openjdk perl r-base r-essentials r-ggplot2 bioconductor-biobase
 conda install -y blast bedtools
 conda install -y pip kmergenie
-npm install -g marked-man
+#npm install -g marked-man
 
 pip uninstall gencore_app || echo "Gencore app is not installed"
 pip install git+https://github.com/nyuad-cgsb/gencore_app.git@master
