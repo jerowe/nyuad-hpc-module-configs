@@ -18,6 +18,7 @@ set -e
 #
 # export PATH="$HOME/anaconda3/bin:$PATH"
 
+sudo apt-get install libc-dev
 
 conda config --set always_yes yes --set changeps1 no
 conda config --add channels r
