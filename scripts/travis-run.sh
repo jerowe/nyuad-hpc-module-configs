@@ -3,6 +3,7 @@
 set -xe # Exit with nonzero exit code if anything fails
 
 export BASE_DIR=`pwd`
+# export PATH="$HOME/anaconda3/bin:$PATH"
 
 git fetch origin master
 #export RECIPES=$(git diff FETCH_HEAD --name-only | grep yml | grep recipes)
