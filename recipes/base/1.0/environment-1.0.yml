@@ -1,6 +1,6 @@
 name: gencore_base
-version: 1.1
-build: 0
+version: 1.0
+build: 1
 channels:
 - bioconda
 - r
@@ -9,8 +9,10 @@ channels:
 - nyuad-cgsb
 dependencies:
 - perl-app-cpanminus
-- pip
-- setuptools
+- perl-hpc-runner-command=3.1.1
+- perl-biox-workflow=1.10
+- perl-biox-workflow-plugin-fileexists=0.13
+- perl-biox-workflow-plugin-filedetails=0.11
 - r-base=3.3.1
 - r-ggplot2
 - bioconductor-biocgenerics
