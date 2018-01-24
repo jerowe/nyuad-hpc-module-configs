@@ -10,7 +10,7 @@ channels:
 dependencies:
 - gcc
 - zlib
-- libgcc
+# - libgcc
 - cmake=3.7.1
 - autoconf
 - automake
