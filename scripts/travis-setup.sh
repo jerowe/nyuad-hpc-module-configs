@@ -31,7 +31,7 @@ conda update --all -y
 
 ##These are all added to the travis cache
 
-conda install python=3.5
+conda install python=3
 conda install -y conda conda-build anaconda-client pip setuptools
 conda install -y pip nodejs gnuplot
 conda install -y samtools bamtools bcftools freebayes gatk
