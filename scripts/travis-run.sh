@@ -13,7 +13,8 @@ git fetch origin master
 
 ##TRAVIS_BRANCH
 ##CIRCLE_BRANCH
-if [[ $TRAVIS_BRANCH = "master" && "$TRAVIS_PULL_REQUEST" = false ]]
+# if [[ $TRAVIS_BRANCH = "master" && "$TRAVIS_PULL_REQUEST" = false ]]
+if [[ $CIRCLE_BRANCH = "master" ]]
 then
     #Upload packages
     anaconda login --user $ANACONDA_USER --password $ANACONDA_PASSWORD
