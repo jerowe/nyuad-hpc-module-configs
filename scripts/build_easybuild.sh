@@ -27,9 +27,12 @@ git remote rm origin
 git remote add origin "$ORIGIN"
 
 #git add -A
-git pull origin "$TRAVIS_BRANCH"
+# git pull origin "$TRAVIS_BRANCH"
+git pull origin "$CIRCLE_BRANCH"
 
 git add _easybuild
 #If it doesn't exit as 0 there is nothing to commit
-git commit  -m "Updated docs to commit ${TRAVIS_COMMIT}." || exit 0
-git push  origin "$TRAVIS_BRANCH"
+# git commit  -m "Updated docs to commit ${TRAVIS_COMMIT}." || exit 0
+git commit  -m "Updated docs to commit" || exit 0
+# git push  origin "$TRAVIS_BRANCH"
+git push  origin "$CIRCLE_BRANCH"
