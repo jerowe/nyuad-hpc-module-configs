@@ -1,9 +1,19 @@
-# gencore_de_novo_transcriptome
+# gencore_de_novo_genomic
 ## Summary
 
 Coming soon!
 
 ## Software Packages
+
+### abyss
+**Version:** 1.9.0
+
+**Conda Channel:** bioconda
+
+#### Summary:
+Assembly By Short Sequences - a de novo, parallel, paired-end sequence assembler
+
+
 
 ### augustus
 **Version:** 3.2.2
@@ -42,36 +52,6 @@ BCFtools is a set of utilities that manipulate variant calls in the Variant Call
 
 #### Summary:
 A powerful toolset for genome arithmetic
-
-
-
-### bioconductor-deseq2
-**Version:** 1.10.1
-
-**Conda Channel:** bioconda
-
-#### Summary:
-Estimate variance-mean dependence in count data from high-throughput sequencing assays and test for differential expression based on a model using the negative binomial distribution.
-
-
-
-### bioconductor-deseq
-**Version:** 1.22.1
-
-**Conda Channel:** bioconda
-
-#### Summary:
-Estimate variance-mean dependence in count data from high-throughput sequencing assays and test for differential expression based on a model using the negative binomial distribution
-
-
-
-### bioconductor-edger
-**Version:** 3.14.0
-
-**Conda Channel:** bioconda
-
-#### Summary:
-Differential expression analysis of RNA-seq expression profiles with biological replication. Implements a range of statistical methodology based on the negative binomial distributions, including empirical Bayes estimation, exact tests, generalized linear models and quasi-likelihood tests. As well as RNA-seq, it be applied to differential signal analysis of other types of genomic data that produce counts, including ChIP-seq, Bisulfite-seq, SAGE and CAGE.
 
 
 
@@ -125,13 +105,63 @@ Circos is a software package for visualizing data and information. It visualizes
 
 
 
-### cufflinks
-**Version:** 2.2.1
+### discovar
+**Version:** 52488
 
 **Conda Channel:** bioconda
 
 #### Summary:
-Transcriptome assembly and differential expression analysis for RNA-Seq.
+Suitable for variant calling with reference and de novo assembly of small genomes.
+
+
+
+### discovardenovo
+**Version:** 52488
+
+**Conda Channel:** bioconda
+
+#### Summary:
+Suitable for de novo assembly of large and small genomes.
+
+
+
+### freebayes
+**Version:** 1.0.2.29
+
+**Conda Channel:** bioconda
+
+#### Summary:
+Bayesian haplotype-based polymorphism discovery and genotyping
+
+
+
+### gatk
+**Version:** 3.6
+
+**Conda Channel:** bioconda
+
+#### Summary:
+The full Genome Analysis Toolkit (GATK) framework, license restricted.
+
+
+
+### genblasta
+**Version:** 1.0.4
+
+**Conda Channel:** bioconda
+
+#### Summary:
+genBlast is a program suite, consisting of two programs: genBlastA and genBlastG. genBlastA parses local alignments, or high-scoring segment pairs (HSPs) produced by local sequence alignment programs such as BLAST and WU-BLAST and identify groups of HSPs.
+
+
+
+### genblastg
+**Version:** 1.38
+
+**Conda Channel:** bioconda
+
+#### Summary:
+genBlast is a program suite, consisting of two programs: genBlastA and genBlastG. genBlastA parses local alignments, or high-scoring segment pairs (HSPs) produced by local sequence alignment programs such as BLAST and WU-BLAST and identify groups of HSPs.
 
 
 
@@ -145,13 +175,43 @@ Biosequence analysis using profile hidden Markov models
 
 
 
-### htseq
-**Version:** 0.6.1.post1
+### idba
+**Version:** 1.1.1
 
 **Conda Channel:** bioconda
 
 #### Summary:
-HTSeq is a Python library to facilitate processing and analysis of data from high-throughput sequencing (HTS) experiments.
+IDBA-UD is a iterative De Bruijn Graph De Novo Assembler for Short Reads Sequencing data with Highly Uneven Sequencing Depth.
+
+
+
+### jellyfish
+**Version:** 2.2.3
+
+**Conda Channel:** bioconda
+
+#### Summary:
+Jellyfish is a tool for fast, memory-efficient counting of k-mers in DNA. A k-mer is a substring of length k, and counting the occurrences of all such substrings is a central step in many analyses of DNA sequence
+
+
+
+### kmergenie
+**Version:** 1.7016
+
+**Conda Channel:** bioconda
+
+#### Summary:
+KmerGenie estimates the best k-mer length for genome de novo assembly
+
+
+
+### mira
+**Version:** 4.0.2
+
+**Conda Channel:** bioconda
+
+#### Summary:
+MIRA is a whole genome shotgun and EST sequence assembler for Sanger, 454, Solexa (Illumina), IonTorrent data and PacBio (the later at the moment only CCS and error-corrected CLR reads)
 
 
 
@@ -162,46 +222,6 @@ HTSeq is a Python library to facilitate processing and analysis of data from hig
 
 #### Summary:
 paired-end read merger
-
-
-
-### perl-biox-workflow-plugin-filedetails
-**Version:** 0.11
-
-**Conda Channel:** bioconda
-
-#### Summary:
-Get metadata for files in directories processed by BioX::Workflow
-
-
-
-### perl-biox-workflow-plugin-fileexists
-**Version:** 0.13
-
-**Conda Channel:** bioconda
-
-#### Summary:
-a plugin to BioX::Workflow
-
-
-
-### perl-biox-workflow
-**Version:** 1.10
-
-**Conda Channel:** bioconda
-
-#### Summary:
-A very opinionated template based workflow writer.
-
-
-
-### perl-hpc-runner-command
-**Version:** 3.1.1
-
-**Conda Channel:** bioconda
-
-#### Summary:
-Create composable bioinformatics hpc analyses.
 
 
 
@@ -235,26 +255,6 @@ Quality Assessment Tool for Genome Assemblies
 
 
 
-### rsem
-**Version:** 1.2.28
-
-**Conda Channel:** bioconda
-
-#### Summary:
-RSEM (RNA-Seq by Expectation-Maximization)
-
-
-
-### salmon
-**Version:** 0.6.0
-
-**Conda Channel:** bioconda
-
-#### Summary:
-Highly-accurate & wicked fast transcript-level quantification from RNA-seq reads using lightweight alignments
-
-
-
 ### samtools
 **Version:** 1.3.1
 
@@ -285,23 +285,14 @@ A lightweight OAI client library for Python
 
 
 
-### star
-**Version:** 2.5.2a
+### spades
+**Version:** 3.9.0
 
 **Conda Channel:** bioconda
 
 #### Summary:
-An RNA-seq read aligner.
+SPAdes (St. Petersburg genome assembler) is intended for both standard isolates and single-cell MDA bacteria assemblies.
 
-
-
-### tophat
-**Version:** 2.1.0
-
-**Conda Channel:** bioconda
-
-#### Summary:
-A spliced read mapper for RNA-Seq
 
 
 
@@ -332,6 +323,16 @@ Command-line tools for manipulating VCF files
 
 #### Summary:
 A set of tools written in Perl and C++ for working with VCF files. This package only contains the C++ libraries whereas the package perl-vcftools-vcf contains the perl libraries
+
+
+
+### velvet
+**Version:** 1.2.10
+
+**Conda Channel:** bioconda
+
+#### Summary:
+Sequence Assembler for short reads
 
 
 

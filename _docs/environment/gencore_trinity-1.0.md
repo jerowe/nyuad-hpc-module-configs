@@ -71,7 +71,7 @@ TransDecoder identifies candidate coding regions within transcript sequences, su
 **Conda Channel:** bioconda
 
 #### Summary:
-Trinity assembles transcript sequences from Illumina RNA-Seq data
+Trinity RNA-Seq de novo transcriptome assembly
 
 
 

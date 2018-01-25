@@ -1,9 +1,19 @@
-# gencore_variant_detection
+# gencore_de_novo_metagenomic
 ## Summary
 
 Coming soon!
 
 ## Software Packages
+
+### augustus
+**Version:** 3.2.2
+
+**Conda Channel:** bioconda
+
+#### Summary:
+AUGUSTUS is a gene prediction program for eukaryotes written by Mario Stanke and Oliver Keller. It can be used as an ab initio program, which means it bases its prediction purely on the sequence. AUGUSTUS may also incorporate hints on the gene structure coming from extrinsic sources such as EST, MS/MS, protein alignments and synthenic genomic alignments.
+
+
 
 ### bamtools
 **Version:** 2.4.0
@@ -32,16 +42,6 @@ BCFtools is a set of utilities that manipulate variant calls in the Variant Call
 
 #### Summary:
 A powerful toolset for genome arithmetic
-
-
-
-### bioconductor-biobase
-**Version:** 2.32.0
-
-**Conda Channel:** bioconda
-
-#### Summary:
-Functions that are needed by many other packages or which replace R functions.
 
 
 
@@ -85,53 +85,83 @@ The BWA read mapper.
 
 
 
-### cufflinks
-**Version:** 2.2.1
+### circos
+**Version:** 0.69.2
 
 **Conda Channel:** bioconda
 
 #### Summary:
-Transcriptome assembly and differential expression analysis for RNA-Seq.
+Circos is a software package for visualizing data and information. It visualizes data in a circular layout
 
 
 
-### discovar
-**Version:** 52488
-
-**Conda Channel:** bioconda
-
-#### Summary:
-Suitable for variant calling with reference and de novo assembly of small genomes.
-
-
-
-### discovardenovo
-**Version:** 52488
+### hmmer
+**Version:** 3.1b2
 
 **Conda Channel:** bioconda
 
 #### Summary:
-Suitable for de novo assembly of large and small genomes.
+Biosequence analysis using profile hidden Markov models
 
 
 
-### freebayes
-**Version:** 1.0.2.29
-
-**Conda Channel:** bioconda
-
-#### Summary:
-Bayesian haplotype-based polymorphism discovery and genotyping
-
-
-
-### gatk
-**Version:** 3.5
+### mawk
+**Version:** 1.3.4
 
 **Conda Channel:** bioconda
 
 #### Summary:
-The full Genome Analysis Toolkit (GATK) framework, license restricted.
+mawk is an interpreter for the AWK Programming Language.
+
+
+
+### metaphlan2
+**Version:** 2.5.0
+
+**Conda Channel:** bioconda
+
+#### Summary:
+MetaPhlAn is a computational tool for profiling the composition of microbial communities (Bacteria, Archaea, Eukaryotes and Viruses) from metagenomic shotgun sequencing data with species level resolution. From version 2.0 MetaPhlAn is also able to identify specific strains (in the not-so-frequent cases in which the sample contains a previously sequenced strains) and to track strains across samples for all species.
+
+
+
+### metavelvet-sl-feature-extraction
+**Version:** 1.0
+
+**Conda Channel:** bioconda
+
+#### Summary:
+Perl libraries that do feature extraction for metavelvet-sl
+
+
+
+### metavelvet-sl
+**Version:** 1.0
+
+**Conda Channel:** bioconda
+
+#### Summary:
+MetaVelvet-SL : An extension of Velvet assembler to de novo metagenomic assembler utilizing supervised learning
+
+
+
+### metavelvet
+**Version:** 1.1.01
+
+**Conda Channel:** bioconda
+
+#### Summary:
+MetaVelvet : An extension of Velvet assembler to de novo metagenome assembly from short sequence reads
+
+
+
+### mothur
+**Version:** 1.36.1
+
+**Conda Channel:** bioconda
+
+#### Summary:
+This project seeks to develop a single piece of open-source, expandable software to fill the bioinformatics needs of the microbial ecology community.
 
 
 
@@ -142,56 +172,6 @@ The full Genome Analysis Toolkit (GATK) framework, license restricted.
 
 #### Summary:
 paired-end read merger
-
-
-
-### perl-app-cpanminus
-**Version:** latest
-
-**Conda Channel:** bioconda
-
-#### Summary:
-get, unpack, build and install modules from CPAN
-
-
-
-### perl-biox-workflow-plugin-filedetails
-**Version:** 0.11
-
-**Conda Channel:** bioconda
-
-#### Summary:
-Get metadata for files in directories processed by BioX::Workflow
-
-
-
-### perl-biox-workflow-plugin-fileexists
-**Version:** 0.13
-
-**Conda Channel:** bioconda
-
-#### Summary:
-a plugin to BioX::Workflow
-
-
-
-### perl-biox-workflow
-**Version:** 1.10
-
-**Conda Channel:** bioconda
-
-#### Summary:
-A very opinionated template based workflow writer.
-
-
-
-### perl-hpc-runner-command
-**Version:** 3.1.1
-
-**Conda Channel:** bioconda
-
-#### Summary:
-Create composable bioinformatics hpc analyses.
 
 
 
@@ -215,26 +195,6 @@ PRINSEQ can be used to filter, reformat, or trim your genomic and metagenomic se
 
 
 
-### r-base
-**Version:** 3.3.1
-
-**Conda Channel:** r
-
-#### Summary:
-R is a free software environment for statistical computing and graphics.
-
-
-
-### r-essentials
-**Version:** latest
-
-**Conda Channel:** r
-
-#### Summary:
-Some essential packages for working with R
-
-
-
 ### samtools
 **Version:** 1.3.1
 
@@ -255,43 +215,13 @@ Seqtk is a fast and lightweight tool for processing sequences in the FASTA or FA
 
 
 
-### snpeff
-**Version:** 4.3
+### trimmomatic
+**Version:** 0.36
 
 **Conda Channel:** bioconda
 
 #### Summary:
 Genetic variant annotation and effect prediction toolbox
-
-
-
-### snpsift
-**Version:** 4.3
-
-**Conda Channel:** bioconda
-
-#### Summary:
-Toolbox that allows you to filter and manipulate annotated files
-
-
-
-### star
-**Version:** 2.5.2a
-
-**Conda Channel:** bioconda
-
-#### Summary:
-An RNA-seq read aligner.
-
-
-
-### tophat
-**Version:** 2.1.0
-
-**Conda Channel:** bioconda
-
-#### Summary:
-A spliced read mapper for RNA-Seq
 
 
 

@@ -11,7 +11,7 @@ Coming soon!
 **Conda Channel:** bioconda
 
 #### Summary:
-
+Functions that are needed by many other packages or which replace R functions.
 
 
 
@@ -51,7 +51,7 @@ Some essential packages for working with R
 **Conda Channel:** r
 
 #### Summary:
-
+R is a free software environment for statistical computing and graphics.
 
 
 
