@@ -18,7 +18,7 @@ set -e
 #
 # export PATH="$HOME/anaconda3/bin:$PATH"
 
-apt-get install -y  build-essential libc-dev libstdc++  libgcc
+apt-get install -y  build-essential 
 
 conda config --set always_yes yes --set changeps1 no
 conda config --add channels r
