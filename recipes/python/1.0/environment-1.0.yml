@@ -1,5 +1,5 @@
 name: gencore_python
-version: 1.0
+version: 1.1
 build: 0
 channels:
 - bioconda
@@ -12,3 +12,5 @@ dependencies:
 - ipython
 - numpy
 - scipy
+- matplotlib
+- pandas
