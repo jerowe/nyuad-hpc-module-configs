@@ -51,7 +51,7 @@ Allows for persistent storage, access, exploration, and manipulation of Cufflink
 **Conda Channel:** bioconda
 
 #### Summary:
-
+Estimate variance-mean dependence in count data from high-throughput sequencing assays and test for differential expression based on a model using the negative binomial distribution.
 
 
 
@@ -71,7 +71,7 @@ Estimate variance-mean dependence in count data from high-throughput sequencing 
 **Conda Channel:** bioconda
 
 #### Summary:
-
+Differential expression analysis of RNA-seq expression profiles with biological replication. Implements a range of statistical methodology based on the negative binomial distributions, including empirical Bayes estimation, exact tests, generalized linear models and quasi-likelihood tests. As well as RNA-seq, it be applied to differential signal analysis of other types of genomic data that produce counts, including ChIP-seq, Bisulfite-seq, SAGE and CAGE.
 
 
 
@@ -91,7 +91,7 @@ BLAT is a bioinformatics software tool which performs rapid mRNA/DNA and cross-s
 **Conda Channel:** bioconda
 
 #### Summary:
-
+Fast and sensitive read alignment
 
 
 
@@ -121,7 +121,7 @@ The full Genome Analysis Toolkit (GATK) framework, license restricted.
 **Conda Channel:** bioconda
 
 #### Summary:
-
+HTSeq is a Python library to facilitate processing and analysis of data from high-throughput sequencing (HTS) experiments.
 
 
 
@@ -261,7 +261,7 @@ Command-line tools for manipulating VCF files
 **Conda Channel:** bioconda
 
 #### Summary:
-A set of tools written in Perl and C++ for working with VCF files.
+A set of tools written in Perl and C++ for working with VCF files. This package only contains the C++ libraries whereas the package perl-vcftools-vcf contains the perl libraries
 
 
 

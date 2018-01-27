@@ -1,9 +1,19 @@
-# gencore_rad
+# gencore_annotation
 ## Summary
 
 Coming soon!
 
 ## Software Packages
+
+### augustus
+**Version:** 3.2.2
+
+**Conda Channel:** bioconda
+
+#### Summary:
+AUGUSTUS is a gene prediction program for eukaryotes written by Mario Stanke and Oliver Keller. It can be used as an ab initio program, which means it bases its prediction purely on the sequence. AUGUSTUS may also incorporate hints on the gene structure coming from extrinsic sources such as EST, MS/MS, protein alignments and synthenic genomic alignments.
+
+
 
 ### bamtools
 **Version:** 2.4.0
@@ -55,83 +65,43 @@ BLAT is a bioinformatics software tool which performs rapid mRNA/DNA and cross-s
 
 
 
-### bowtie2
-**Version:** 2.2.8
+### bwa
+**Version:** 0.7.15
 
 **Conda Channel:** bioconda
 
 #### Summary:
-Fast and sensitive read alignment
+The BWA read mapper.
 
 
 
-### cd-hit
-**Version:** 4.6.4
-
-**Conda Channel:** bioconda
-
-#### Summary:
-Clusters and compares protein or nucleotide sequences
-
-
-
-### freebayes
-**Version:** 1.0.2.29
+### hmmer
+**Version:** 3.1b2
 
 **Conda Channel:** bioconda
 
 #### Summary:
-Bayesian haplotype-based polymorphism discovery and genotyping
+Biosequence analysis using profile hidden Markov models
 
 
 
-### perl-biox-workflow-plugin-filedetails
-**Version:** 0.11
-
-**Conda Channel:** bioconda
-
-#### Summary:
-Get metadata for files in directories processed by BioX::Workflow
-
-
-
-### perl-biox-workflow-plugin-fileexists
-**Version:** 0.13
+### repeatmasker
+**Version:** 4.0.6
 
 **Conda Channel:** bioconda
 
 #### Summary:
-a plugin to BioX::Workflow
+RepeatMasker is a program that screens DNA sequences for interspersed repeats and low complexity DNA sequences.
 
 
 
-### perl-biox-workflow
-**Version:** 1.10
-
-**Conda Channel:** bioconda
-
-#### Summary:
-A very opinionated template based workflow writer.
-
-
-
-### perl-hpc-runner-command
-**Version:** 3.1.1
+### rmblast
+**Version:** 2.2.28
 
 **Conda Channel:** bioconda
 
 #### Summary:
-Create composable bioinformatics hpc analyses.
-
-
-
-### rainbow
-**Version:** 2.0.4
-
-**Conda Channel:** bioconda
-
-#### Summary:
-Efficient tool for clustering and assembling short reads, especially for RAD
+RMBlast is a RepeatMasker compatible version of the standard NCBI BLAST suite.
 
 
 
@@ -145,23 +115,23 @@ Tools for dealing with SAM, BAM and CRAM files
 
 
 
-### seqtk
-**Version:** 1.2
+### tophat
+**Version:** 2.1.0
 
 **Conda Channel:** bioconda
 
 #### Summary:
-Seqtk is a fast and lightweight tool for processing sequences in the FASTA or FASTQ format
+A spliced read mapper for RNA-Seq
 
 
 
-### stacks
-**Version:** 1.40
+### trinotate
+**Version:** 3.0.1
 
 **Conda Channel:** bioconda
 
 #### Summary:
-Stacks is a software pipeline for building loci from RAD-seq
+Trinotate is a comprehensive annotation suite designed for automatic functional annotation of transcriptomes, particularly de novo assembled transcriptomes, from model or non-model organisms
 
 
 
