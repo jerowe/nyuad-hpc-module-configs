@@ -25,5 +25,6 @@ git remote add origin "$ORIGIN"
 
 git add recipes
 #IF it doesn't exit as 0 its because there is nothing to commit
-git commit  -m "Updated recipes  ${TRAVIS_COMMIT}." || exit 0
-git push -f origin "$TRAVIS_BRANCH"
+git commit  -m "Updated recipes " || exit 0
+# git push -f origin "$TRAVIS_BRANCH"
+git push -f origin "$CIRCLE_BRANCH"

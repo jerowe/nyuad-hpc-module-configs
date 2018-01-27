@@ -14,6 +14,7 @@ git fetch origin master
 ##TRAVIS_BRANCH
 ##CIRCLE_BRANCH
 # if [[ $TRAVIS_BRANCH = "master" && "$TRAVIS_PULL_REQUEST" = false ]]
+# ? CIRCLE_COMPARE_URL
 if [[ $CIRCLE_BRANCH = "master" ]]
 then
     #Upload packages
