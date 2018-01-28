@@ -1,4 +1,4 @@
-# gencore_de_novo_metagenomic
+# gencore_de_novo_transcriptome
 ## Summary
 
 Coming soon!
@@ -42,6 +42,36 @@ BCFtools is a set of utilities that manipulate variant calls in the Variant Call
 
 #### Summary:
 A powerful toolset for genome arithmetic
+
+
+
+### bioconductor-deseq2
+**Version:** 1.10.1
+
+**Conda Channel:** bioconda
+
+#### Summary:
+Estimate variance-mean dependence in count data from high-throughput sequencing assays and test for differential expression based on a model using the negative binomial distribution.
+
+
+
+### bioconductor-deseq
+**Version:** 1.22.1
+
+**Conda Channel:** bioconda
+
+#### Summary:
+Estimate variance-mean dependence in count data from high-throughput sequencing assays and test for differential expression based on a model using the negative binomial distribution
+
+
+
+### bioconductor-edger
+**Version:** 3.14.0
+
+**Conda Channel:** bioconda
+
+#### Summary:
+Differential expression analysis of RNA-seq expression profiles with biological replication. Implements a range of statistical methodology based on the negative binomial distributions, including empirical Bayes estimation, exact tests, generalized linear models and quasi-likelihood tests. As well as RNA-seq, it be applied to differential signal analysis of other types of genomic data that produce counts, including ChIP-seq, Bisulfite-seq, SAGE and CAGE.
 
 
 
@@ -95,6 +125,16 @@ Circos is a software package for visualizing data and information. It visualizes
 
 
 
+### cufflinks
+**Version:** 2.2.1
+
+**Conda Channel:** bioconda
+
+#### Summary:
+Transcriptome assembly and differential expression analysis for RNA-Seq.
+
+
+
 ### hmmer
 **Version:** 3.1b2
 
@@ -105,63 +145,13 @@ Biosequence analysis using profile hidden Markov models
 
 
 
-### mawk
-**Version:** 1.3.4
+### htseq
+**Version:** 0.6.1.post1
 
 **Conda Channel:** bioconda
 
 #### Summary:
-mawk is an interpreter for the AWK Programming Language.
-
-
-
-### metaphlan2
-**Version:** 2.5.0
-
-**Conda Channel:** bioconda
-
-#### Summary:
-MetaPhlAn is a computational tool for profiling the composition of microbial communities (Bacteria, Archaea, Eukaryotes and Viruses) from metagenomic shotgun sequencing data with species level resolution. From version 2.0 MetaPhlAn is also able to identify specific strains (in the not-so-frequent cases in which the sample contains a previously sequenced strains) and to track strains across samples for all species.
-
-
-
-### metavelvet-sl-feature-extraction
-**Version:** 1.0
-
-**Conda Channel:** bioconda
-
-#### Summary:
-Perl libraries that do feature extraction for metavelvet-sl
-
-
-
-### metavelvet-sl
-**Version:** 1.0
-
-**Conda Channel:** bioconda
-
-#### Summary:
-MetaVelvet-SL : An extension of Velvet assembler to de novo metagenomic assembler utilizing supervised learning
-
-
-
-### metavelvet
-**Version:** 1.1.01
-
-**Conda Channel:** bioconda
-
-#### Summary:
-MetaVelvet : An extension of Velvet assembler to de novo metagenome assembly from short sequence reads
-
-
-
-### mothur
-**Version:** 1.36.1
-
-**Conda Channel:** bioconda
-
-#### Summary:
-This project seeks to develop a single piece of open-source, expandable software to fill the bioinformatics needs of the microbial ecology community.
+HTSeq is a Python library to facilitate processing and analysis of data from high-throughput sequencing (HTS) experiments.
 
 
 
@@ -195,6 +185,36 @@ PRINSEQ can be used to filter, reformat, or trim your genomic and metagenomic se
 
 
 
+### quast
+**Version:** 4.1
+
+**Conda Channel:** bioconda
+
+#### Summary:
+Quality Assessment Tool for Genome Assemblies
+
+
+
+### rsem
+**Version:** 1.2.28
+
+**Conda Channel:** bioconda
+
+#### Summary:
+RSEM (RNA-Seq by Expectation-Maximization)
+
+
+
+### salmon
+**Version:** 0.6.0
+
+**Conda Channel:** bioconda
+
+#### Summary:
+Highly-accurate & wicked fast transcript-level quantification from RNA-seq reads using lightweight alignments
+
+
+
 ### samtools
 **Version:** 1.3.1
 
@@ -212,6 +232,36 @@ Tools for dealing with SAM, BAM and CRAM files
 
 #### Summary:
 Seqtk is a fast and lightweight tool for processing sequences in the FASTA or FASTQ format
+
+
+
+### sickle
+**Version:** 0.5
+
+**Conda Channel:** bioconda
+
+#### Summary:
+A lightweight OAI client library for Python
+
+
+
+### star
+**Version:** 2.5.2a
+
+**Conda Channel:** bioconda
+
+#### Summary:
+An RNA-seq read aligner.
+
+
+
+### tophat
+**Version:** 2.1.0
+
+**Conda Channel:** bioconda
+
+#### Summary:
+A spliced read mapper for RNA-Seq
 
 
 
