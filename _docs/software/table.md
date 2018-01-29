@@ -1,6 +1,6 @@
 # Software
 
-| | gencore_annotation-1.1 | gencore_base-1.1 | gencore_biosails-1.1 | gencore_build-1.1 | gencore_de_novo_genomic-1.1 | gencore_de_novo_genomic_soapdenovo2-1.1 | gencore_de_novo_metagenomic-1.1 | gencore_de_novo_transcriptome-1.1 | gencore_epigenetics-1.1 | gencore_evonet-1.1 | gencore_kraken-1.1 | gencore_metagenomics-1.1 | gencore_perl-1.1 | gencore_python-1.1 | gencore_qc-1.1 | gencore_qiime-1.1 | gencore_r-3.3.1 | gencore_rad-1.1 | gencore_rad_ddocent-1.1 | gencore_rnaseq-1.1 | gencore_rnaseq_malaria-1.1 | gencore_trinity-1.1 | gencore_variant_detection-1.1 |
+| | gencore_annotation-1.1 | gencore_base-1.1 | gencore_biosails-1.1 | gencore_build-1.1 | gencore_de_novo_genomic-1.1 | gencore_de_novo_genomic_soapdenovo2-1.1 | gencore_de_novo_metagenomic-1.1 | gencore_de_novo_transcriptome-1.1 | gencore_epigenetics-1.1 | gencore_evonet-1.1 | gencore_kraken-1.1 | gencore_metagenomics-1.1 | gencore_perl-1.1 | gencore_python-1.1 | gencore_qc-1.1 | gencore_qiime-1.1 | gencore_r-3.3.1 | gencore_rad-1.1 | gencore_rad_ddocent-1.1 | gencore_rnaseq-1.2 | gencore_rnaseq_malaria-1.1 | gencore_trinity-1.1 | gencore_variant_detection-1.1 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---  |
 | abyss=1.9.0 | | | | | **Y** | | | | | | | | | | | | | | | | | | |
 | augustus=3.2.2 | **Y** | | | | **Y** | | **Y** | **Y** | | | | **Y** | | | | | | | | | | | |
@@ -18,7 +18,7 @@
 | bioconductor-cummerbund=2.16.0 | | | | | | | | | | | | | | | | | | | | **Y** | | | |
 | bioconductor-dada2=latest | | | | | | | | | | | | **Y** | | | | | | | | | | | |
 | bioconductor-deseq2=1.10.1 | | | | | | | | **Y** | | | | | | | | | | | | | **Y** | | |
-| bioconductor-deseq2=1.12.4 | | | | | | | | | | | | | | | | | | | | **Y** | | | |
+| bioconductor-deseq2>=1.12.4 | | | | | | | | | | | | | | | | | | | | **Y** | | | |
 | bioconductor-deseq=1.22.1 | | | | | | | | **Y** | | | | | | | | | | | | | **Y** | | |
 | bioconductor-edger=3.14.0 | | | | | | | | **Y** | | | | | | | | | | | | **Y** | **Y** | | |
 | bioconductor-genomicranges=1.26.1 | | | | | | | | | | | | | | | | | | | | **Y** | | | |
