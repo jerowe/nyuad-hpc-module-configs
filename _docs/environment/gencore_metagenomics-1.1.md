@@ -1,4 +1,4 @@
-# gencore_de_novo_metagenomic
+# gencore_metagenomics
 ## Summary
 
 Coming soon!
@@ -45,6 +45,16 @@ A powerful toolset for genome arithmetic
 
 
 
+### bioconductor-dada2
+**Version:** latest
+
+**Conda Channel:** bioconda
+
+#### Summary:
+The dada2 package infers exact amplicon sequence variants (ASVs) from high-throughput amplicon sequencing data, replacing the coarser and less accurate OTU clustering approach. The dada2 pipeline takes as input demultiplexed fastq files, and outputs the sequence variants and their sample-wise abundances after removing substitution and chimera errors. Taxonomic classification is available via a native implementation of the RDP naive Bayesian classifier, and genus-species assignment by exact matching.
+
+
+
 ### blast
 **Version:** 2.2.31
 
@@ -85,13 +95,13 @@ The BWA read mapper.
 
 
 
-### circos
-**Version:** 0.69.2
+### cd-hit
+**Version:** 4.6.4
 
 **Conda Channel:** bioconda
 
 #### Summary:
-Circos is a software package for visualizing data and information. It visualizes data in a circular layout
+Clusters and compares protein or nucleotide sequences
 
 
 
@@ -115,46 +125,6 @@ mawk is an interpreter for the AWK Programming Language.
 
 
 
-### metaphlan2
-**Version:** 2.5.0
-
-**Conda Channel:** bioconda
-
-#### Summary:
-MetaPhlAn is a computational tool for profiling the composition of microbial communities (Bacteria, Archaea, Eukaryotes and Viruses) from metagenomic shotgun sequencing data with species level resolution. From version 2.0 MetaPhlAn is also able to identify specific strains (in the not-so-frequent cases in which the sample contains a previously sequenced strains) and to track strains across samples for all species.
-
-
-
-### metavelvet-sl-feature-extraction
-**Version:** 1.0
-
-**Conda Channel:** bioconda
-
-#### Summary:
-Perl libraries that do feature extraction for metavelvet-sl
-
-
-
-### metavelvet-sl
-**Version:** 1.0
-
-**Conda Channel:** bioconda
-
-#### Summary:
-MetaVelvet-SL : An extension of Velvet assembler to de novo metagenomic assembler utilizing supervised learning
-
-
-
-### metavelvet
-**Version:** 1.1.01
-
-**Conda Channel:** bioconda
-
-#### Summary:
-MetaVelvet : An extension of Velvet assembler to de novo metagenome assembly from short sequence reads
-
-
-
 ### mothur
 **Version:** 1.36.1
 
@@ -175,26 +145,6 @@ paired-end read merger
 
 
 
-### picard
-**Version:** 2.5.0
-
-**Conda Channel:** bioconda
-
-#### Summary:
-Java tools for working with NGS data in the BAM format
-
-
-
-### prinseq
-**Version:** 0.20.4
-
-**Conda Channel:** bioconda
-
-#### Summary:
-PRINSEQ can be used to filter, reformat, or trim your genomic and metagenomic sequence data
-
-
-
 ### samtools
 **Version:** 1.3.1
 
@@ -212,16 +162,6 @@ Tools for dealing with SAM, BAM and CRAM files
 
 #### Summary:
 Seqtk is a fast and lightweight tool for processing sequences in the FASTA or FASTQ format
-
-
-
-### trimmomatic
-**Version:** 0.36
-
-**Conda Channel:** bioconda
-
-#### Summary:
-Genetic variant annotation and effect prediction toolbox
 
 
 
