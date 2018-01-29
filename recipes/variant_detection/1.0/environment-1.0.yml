@@ -1,6 +1,6 @@
 name: gencore_variant_detection
-version: 1.0
-build: 1
+version: 1.1
+build: 0
 channels:
 - bioconda
 - r
@@ -8,11 +8,6 @@ channels:
 - conda-forge
 - nyuad-cgsb
 dependencies:
-- perl-app-cpanminus
-- perl-hpc-runner-command=3.1.1
-- perl-biox-workflow=1.10
-- perl-biox-workflow-plugin-fileexists=0.13
-- perl-biox-workflow-plugin-filedetails=0.11
 - discovar=52488
 - discovardenovo=52488
 - blast=2.2.31
