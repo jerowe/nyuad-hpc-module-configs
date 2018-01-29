@@ -1,6 +1,6 @@
 # Software
 
-| | gencore_annotation-1.1 | gencore_base-1.1 | gencore_biosails-1.1 | gencore_build-1.1 | gencore_de_novo_genomic-1.1 | gencore_de_novo_genomic_soapdenovo2-1.1 | gencore_de_novo_metagenomic-1.0 | gencore_de_novo_transcriptome-1.1 | gencore_epigenetics-1.1 | gencore_evonet-1.1 | gencore_kraken-1.1 | gencore_metagenomics-1.1 | gencore_perl-1.1 | gencore_python-1.1 | gencore_qc-1.1 | gencore_qiime-1.0 | gencore_r-3.3.1 | gencore_rad-1.0 | gencore_rad_ddocent-1.0 | gencore_rnaseq-1.1 | gencore_rnaseq_malaria-1.0 | gencore_trinity-1.0 | gencore_variant_detection-1.0 |
+| | gencore_annotation-1.1 | gencore_base-1.1 | gencore_biosails-1.1 | gencore_build-1.1 | gencore_de_novo_genomic-1.1 | gencore_de_novo_genomic_soapdenovo2-1.1 | gencore_de_novo_metagenomic-1.1 | gencore_de_novo_transcriptome-1.1 | gencore_epigenetics-1.1 | gencore_evonet-1.1 | gencore_kraken-1.1 | gencore_metagenomics-1.1 | gencore_perl-1.1 | gencore_python-1.1 | gencore_qc-1.1 | gencore_qiime-1.1 | gencore_r-3.3.1 | gencore_rad-1.1 | gencore_rad_ddocent-1.0 | gencore_rnaseq-1.1 | gencore_rnaseq_malaria-1.0 | gencore_trinity-1.0 | gencore_variant_detection-1.0 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---  |
 | abyss=1.9.0 | | | | | **Y** | | | | | | | | | | | | | | | | | | |
 | augustus=3.2.2 | **Y** | | | | **Y** | | **Y** | **Y** | | | | **Y** | | | | | | | | | | | |
@@ -74,11 +74,11 @@
 | pear=0.9.6 | | | | | **Y** | | **Y** | **Y** | | | | **Y** | | | | | | | | | | | **Y** |
 | perl-app-cpanminus=latest | | **Y** | **Y** | | | | | | | | | | **Y** | | | | | | | | | | **Y** |
 | perl-biox-workflow-command=latest | | | **Y** | | | | | | | | | | | | | | | | | | | | |
-| perl-biox-workflow-plugin-filedetails=0.11 | | | | | | | | | | | | | | | | | | **Y** | **Y** | | **Y** | **Y** | **Y** |
-| perl-biox-workflow-plugin-fileexists=0.13 | | | | | | | | | | | | | | | | **Y** | | **Y** | **Y** | | **Y** | **Y** | **Y** |
-| perl-biox-workflow=1.10 | | | | | | | | | | | | | | | | **Y** | | **Y** | **Y** | | **Y** | **Y** | **Y** |
+| perl-biox-workflow-plugin-filedetails=0.11 | | | | | | | | | | | | | | | | | | | **Y** | | **Y** | **Y** | **Y** |
+| perl-biox-workflow-plugin-fileexists=0.13 | | | | | | | | | | | | | | | | | | | **Y** | | **Y** | **Y** | **Y** |
+| perl-biox-workflow=1.10 | | | | | | | | | | | | | | | | | | | **Y** | | **Y** | **Y** | **Y** |
 | perl-dbi=latest | | | | | | | | | | | | | **Y** | | | | | | | | | | |
-| perl-hpc-runner-command=3.1.1 | | | | | | | | | | | | | | | | **Y** | **Y** | **Y** | **Y** | | **Y** | **Y** | **Y** |
+| perl-hpc-runner-command=3.1.1 | | | | | | | | | | | | | | | | | | | **Y** | | **Y** | **Y** | **Y** |
 | perl-hpc-runner-command=latest | | | **Y** | | | | | | | | | | | | | | | | | | | | |
 | perl-termreadkey=latest | | | | | | | | | | | | | **Y** | | | | | | | | | | |
 | picard=2.0.1 | | | | | | | | | | | | | | | | | | | | | **Y** | | |
@@ -94,11 +94,12 @@
 | qiime=1.9.1 | | | | | | | | | | | | | | | | **Y** | | | | | | | |
 | qualimap=2.2.2a | | | | | | | | | | | | | | | **Y** | | | | | | | | |
 | quast=4.1 | | | | | **Y** | | | **Y** | | | | | | | | | | | | | | | |
-| r-base=3.3.1 | | **Y** | | | | | | | | | | | | | | | **Y** | | | **Y** | | | **Y** |
+| r-base=3.3.1 | | **Y** | | | | | | | | | | | | | | | | | | **Y** | | | **Y** |
+| r-base=latest | | | | | | | | | | | | | | | | | **Y** | | | | | | |
 | r-cairo=latest | | | | | | | | | | | | | | | | | | | | **Y** | | | |
 | r-essentials=latest | | | | | | | | | | | | | | | | | **Y** | | | **Y** | | | **Y** |
 | r-ggplot2=latest | | **Y** | | | | | | | | | | | | | | | | | | | | | |
-| r=3.3.1 | | | | | | | | | | | | | | | | | **Y** | | | | | | |
+| r=latest | | | | | | | | | | | | | | | | | **Y** | | | | | | |
 | rainbow=2.0.4 | | | | | | | | | | | | | | | | | | **Y** | | | | | |
 | repeatmasker=4.0.6 | **Y** | | | | | | | | | | | | | | | | | | | | | | |
 | rmblast=2.2.28 | **Y** | | | | | | | | | | | | | | | | | | | | | | |
