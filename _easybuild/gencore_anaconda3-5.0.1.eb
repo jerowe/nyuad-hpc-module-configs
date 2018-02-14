@@ -1,0 +1,23 @@
+# author: Jillian Rowe <jillian.e.rowe@gmail.com>
+easyblock = 'EB_Anaconda'
+
+name = 'gencore_anaconda3'
+version = '5.0.1'
+
+homepage = 'https://www.continuum.io/anaconda-overview'
+description = """Built to complement the rich, open source Python community,
+the Anaconda platform provides an enterprise-ready data analytics platform 
+that empowers companies to adopt a modern open data science analytics architecture.
+"""
+
+toolchain = {'name': 'dummy', 'version': 'dummy'}
+
+source_urls = ['http://repo.continuum.io/archive/']
+sources = ['Anaconda3-5.0.1-Linux-x86_64.sh']
+#checksums = ['546d1f02597587c685fa890c1d713b51']
+
+# a newer version of conda is required to run 'conda env create -p'
+#prep_env = "PATH=%(installdir)s/bin:$PATH "
+postinstallcmds = [prep_env + "conda update --all -y"]
+
+moduleclass = 'lang'
