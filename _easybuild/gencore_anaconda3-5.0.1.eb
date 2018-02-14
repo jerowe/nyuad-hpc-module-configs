@@ -17,7 +17,7 @@ sources = ['Anaconda3-5.0.1-Linux-x86_64.sh']
 #checksums = ['546d1f02597587c685fa890c1d713b51']
 
 # a newer version of conda is required to run 'conda env create -p'
-#prep_env = "PATH=%(installdir)s/bin:$PATH "
+prep_env = "PATH=%(installdir)s/bin:$PATH "
 postinstallcmds = [prep_env + "conda update --all -y"]
 
 moduleclass = 'lang'
