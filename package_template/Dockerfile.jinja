@@ -1,0 +1,9 @@
+##This should be from BioSAILs
+FROM quay.io/nyuad_cgsb/easybuild
+
+WORKDIR $HOME/.eb/custom_repos/nyuad-hpc-module-configs
+RUN git pull origin master
+
+RUN bash -c "source activate $EB_ENV && \
+	eb  --robot --robot-paths=$ROBOT  {{ name }}-{{ version }}.eb && \
+        module avail"
