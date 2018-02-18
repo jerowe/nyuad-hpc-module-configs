@@ -218,7 +218,7 @@ PRINSEQ can be used to filter, reformat, or trim your genomic and metagenomic se
 ### r-base
 **Version:** 3.3.1
 
-**Conda Channel:** r
+**Conda Channel:** conda-forge
 
 #### Summary:
 R is a free software environment for statistical computing and graphics.
@@ -238,10 +238,10 @@ R is a free software environment for statistical computing and graphics.
 ### r-essentials
 **Version:** latest
 
-**Conda Channel:** r
+**Conda Channel:** conda-forge
 
 #### Summary:
-Some essential packages for working with R
+
 
 
 
