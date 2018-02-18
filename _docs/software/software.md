@@ -1428,7 +1428,7 @@ R is a free software environment for statistical computing and graphics.
 
 **Version:** 3.3.1
 
-**Conda Channel:** conda-forge
+**Conda Channel:** r
 
 ### HPC Modules
 
@@ -1471,11 +1471,11 @@ R is a free software environment for statistical computing and graphics.
 
 ### Summary
 
-
+Some essential packages for working with R
 
 **Version:** latest
 
-**Conda Channel:** conda-forge
+**Conda Channel:** r
 
 ### HPC Modules
 
