@@ -11,7 +11,7 @@ Coming soon!
 **Conda Channel:** bioconda
 
 #### Summary:
-
+Multiple alignment program for amino acid or nucleotide sequences based on fast Fourier transform
 
 
 
