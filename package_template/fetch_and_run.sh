@@ -12,3 +12,5 @@ mkdir -p `basename $1`
 aws s3 sync $1 `basename $1`
 chmod 777 $RUN
 bash $RUN
+
+ls -lah `basename $1`
