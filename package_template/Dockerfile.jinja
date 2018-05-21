@@ -21,5 +21,7 @@ RUN apt-get install awscli unzip -y
 USER ebuser
 
 WORKDIR /home/ebuser
+RUN wget https://raw.githubusercontent.com/nyuad-cgsb/nyuad-hpc-module-configs/develop/package_template/fetch_and_run.sh
+RUN chmod 777 fetch_and_run.sh
 
 CMD [ "/bin/bash" ]
