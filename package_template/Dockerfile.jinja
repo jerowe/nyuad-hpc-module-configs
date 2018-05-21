@@ -9,5 +9,17 @@ RUN ls -lah $ROBOT
 RUN cat $ROBOT/{{name}}-{{version}}.eb
 
 RUN bash -c "source activate $EB_ENV && \
+	conda install -y gosu tini && \
 	eb  --robot --robot-paths=$ROBOT  {{ name }}-{{ version }}.eb && \
         module avail"
+
+RUN  echo  "source activate $EB_ENV" >> ~/.bashrc
+
+USER root
+RUN apt-get update -y
+RUN apt-get install awscli unzip -y
+USER ebuser
+
+WORKDIR /home/ebuser
+
+CMD [ "/bin/bash" ]
