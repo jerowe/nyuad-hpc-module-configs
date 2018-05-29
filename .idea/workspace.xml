@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="922e51ee-6acd-4302-b285-57e148deeda3" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/nyuad-hpc-module-configs.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/recipes/rnaseq/1.0/environment-1.3.yml" afterPath="$PROJECT_DIR$/recipes/rnaseq/1.0/environment-1.3.yml" />
-    </list>
+    <list default="true" id="922e51ee-6acd-4302-b285-57e148deeda3" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
