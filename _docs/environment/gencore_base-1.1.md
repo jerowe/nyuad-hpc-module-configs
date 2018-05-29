@@ -38,7 +38,7 @@ PyPA recommended tool for installing Python packages
 ### r-base
 **Version:** 3.3.1
 
-**Conda Channel:** r
+**Conda Channel:** conda-forge
 
 #### Summary:
 R is a free software environment for statistical computing and graphics.

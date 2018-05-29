@@ -974,6 +974,7 @@ MCL - a cluster algorithm for graphs
 
 MetaPhlAn is a computational tool for profiling the composition of microbial communities (Bacteria, Archaea, Eukaryotes and Viruses) from metagenomic shotgun sequencing data with species level resolution. From version 2.0 MetaPhlAn is also able to identify specific strains (in the not-so-frequent cases in which the sample contains a previously sequenced strains) and to track strains across samples for all species.
 
+
 **Version:** 2.5.0
 
 **Conda Channel:** bioconda
@@ -1428,7 +1429,7 @@ R is a free software environment for statistical computing and graphics.
 
 **Version:** 3.3.1
 
-**Conda Channel:** r
+**Conda Channel:** conda-forge
 
 ### HPC Modules
 
@@ -1503,7 +1504,7 @@ Some essential packages for working with R
 
 ### Summary
 
-R is a free software environment for statistical computing and graphics.
+The enhanced distribution of R from Microsoft Corporation.
 
 **Version:** latest
 
