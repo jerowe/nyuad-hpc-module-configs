@@ -27,7 +27,7 @@ dependencies:
 - bowtie2=2.2.8
 - tophat=2.1.0
 - cufflinks-patch=2.2.1
-- r-base=3.3.1
+- r-base
 - r-essentials
 - r-cairo
 - bioconductor-deseq2
