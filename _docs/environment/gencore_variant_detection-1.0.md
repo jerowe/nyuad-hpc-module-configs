@@ -41,7 +41,7 @@ A powerful toolset for genome arithmetic
 **Conda Channel:** bioconda
 
 #### Summary:
-
+Functions that are needed by many other packages or which replace R functions.
 
 
 
@@ -71,7 +71,7 @@ BLAT is a bioinformatics software tool which performs rapid mRNA/DNA and cross-s
 **Conda Channel:** bioconda
 
 #### Summary:
-
+Fast and sensitive read alignment
 
 
 
@@ -311,7 +311,7 @@ Command-line tools for manipulating VCF files
 **Conda Channel:** bioconda
 
 #### Summary:
-A set of tools written in Perl and C++ for working with VCF files.
+A set of tools written in Perl and C++ for working with VCF files. This package only contains the C++ libraries whereas the package perl-vcftools-vcf contains the perl libraries
 
 
 

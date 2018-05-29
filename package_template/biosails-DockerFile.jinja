@@ -1,0 +1,47 @@
+##This should be from BioSAILs
+FROM quay.io/nyuad_cgsb/easybuild
+
+WORKDIR $HOME/.eb/custom_repos/nyuad-hpc-module-configs
+
+RUN git pull origin master
+
+RUN ls -lah $ROBOT
+RUN cat $ROBOT/{{name}}-{{version}}.eb
+
+RUN bash -c "source activate $EB_ENV && \
+	eb  --robot --robot-paths=$ROBOT  {{ name }}-{{ version }}.eb && \
+        module avail"
+
+RUN echo "source activate $EB_ENV" >> ~/.bashrc
+RUN echo "module load gencore_biosails" >> ~/.bashrc
+
+##This is all biosails
+USER root
+
+RUN bash -c "conda install -y gosu tini"
+RUN apt-get update -y
+RUN apt-get install awscli unzip -y
+RUN apt-get install -y vim-tiny
+
+RUN mkdir /home/ebuser/bin
+COPY fetch_and_run.sh /home/ebuser/bin/fetch_and_run.sh
+COPY bash_entrypoint.sh /home/ebuser/bin/bash_entrypoint.sh
+RUN chown ebuser:ebuser /home/ebuser/bin/fetch_and_run.sh
+RUN chmod 777 /home/ebuser/bin/fetch_and_run.sh
+RUN chown ebuser:ebuser /home/ebuser/bin/bash_entrypoint.sh
+RUN chmod 777 /home/ebuser/bin/bash_entrypoint.sh
+COPY update_hpc_runner.sh /home/ebuser/bin/update_hpc_runner.sh
+RUN chown ebuser:ebuser /home/ebuser/bin/update_hpc_runner.sh
+RUN chmod 777 /home/ebuser/bin/update_hpc_runner.sh
+RUN chown -R ebuser:ebuser /home/ebuser/bin
+
+ENV PATH /home/ebuser/bin:$PATH
+USER ebuser
+
+WORKDIR /home/ebuser
+CMD ["source activate $EB_ENV"]
+
+RUN update_hpc_runner.sh
+
+
+ENTRYPOINT ["/home/ebuser/bin/bash_entrypoint.sh"]

@@ -1,0 +1,17 @@
+##This should be from BioSAILs
+FROM quay.io/nyuad_cgsb/gencore_biosails
+
+WORKDIR $HOME/.eb/custom_repos/nyuad-hpc-module-configs
+
+RUN git pull origin master
+
+RUN cat $ROBOT/{{name}}-{{version}}.eb
+
+RUN bash -c "source activate $EB_ENV && \
+	eb  --robot --robot-paths=$ROBOT  {{ name }}-{{ version }}.eb && \
+        module avail"
+
+RUN echo "source activate $EB_ENV" >> ~/.bashrc
+RUN echo "module load {{name}}" >> ~/.bashrc
+
+ENTRYPOINT ["/home/ebuser/bin/bash_entrypoint.sh"]

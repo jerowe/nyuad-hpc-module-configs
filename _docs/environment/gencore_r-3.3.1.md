@@ -11,22 +11,22 @@ Coming soon!
 **Conda Channel:** bioconda
 
 #### Summary:
+Functions that are needed by many other packages or which replace R functions.
 
 
 
+### r
+**Version:** latest
 
-### perl-hpc-runner-command
-**Version:** 3.1.1
-
-**Conda Channel:** bioconda
+**Conda Channel:** r
 
 #### Summary:
-Create composable bioinformatics hpc analyses.
+R is a free software environment for statistical computing and graphics.
 
 
 
 ### r-base
-**Version:** 3.3.1
+**Version:** latest
 
 **Conda Channel:** r
 
@@ -42,16 +42,6 @@ R is a free software environment for statistical computing and graphics.
 
 #### Summary:
 Some essential packages for working with R
-
-
-
-### r
-**Version:** 3.3.1
-
-**Conda Channel:** r
-
-#### Summary:
-
 
 
 

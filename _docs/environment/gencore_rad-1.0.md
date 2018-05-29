@@ -61,7 +61,7 @@ BLAT is a bioinformatics software tool which performs rapid mRNA/DNA and cross-s
 **Conda Channel:** bioconda
 
 #### Summary:
-
+Fast and sensitive read alignment
 
 
 
@@ -161,7 +161,7 @@ Seqtk is a fast and lightweight tool for processing sequences in the FASTA or FA
 **Conda Channel:** bioconda
 
 #### Summary:
-
+Stacks is a software pipeline for building loci from RAD-seq
 
 
 
@@ -181,7 +181,7 @@ Command-line tools for manipulating VCF files
 **Conda Channel:** bioconda
 
 #### Summary:
-A set of tools written in Perl and C++ for working with VCF files.
+A set of tools written in Perl and C++ for working with VCF files. This package only contains the C++ libraries whereas the package perl-vcftools-vcf contains the perl libraries
 
 
 
