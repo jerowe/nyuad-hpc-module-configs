@@ -21,7 +21,7 @@ Functions that are needed by many other packages or which replace R functions.
 **Conda Channel:** r
 
 #### Summary:
-R is a free software environment for statistical computing and graphics.
+The enhanced distribution of R from Microsoft Corporation.
 
 
 
