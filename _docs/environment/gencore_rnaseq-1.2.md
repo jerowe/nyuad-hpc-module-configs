@@ -238,10 +238,10 @@ R is a free software environment for statistical computing and graphics.
 ### r-essentials
 **Version:** latest
 
-**Conda Channel:** conda-forge
+**Conda Channel:** r
 
 #### Summary:
-Some essential packages for working with R. This was migrated from the 'r' channel.
+Some essential packages for working with R
 
 
 

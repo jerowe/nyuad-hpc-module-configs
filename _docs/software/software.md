@@ -1564,11 +1564,11 @@ R is a free software environment for statistical computing and graphics.
 
 ### Summary
 
-Some essential packages for working with R. This was migrated from the 'r' channel.
+Some essential packages for working with R
 
 **Version:** latest
 
-**Conda Channel:** conda-forge
+**Conda Channel:** r
 
 ### HPC Modules
 
