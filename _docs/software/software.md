@@ -1429,7 +1429,7 @@ R is a free software environment for statistical computing and graphics.
 
 **Version:** 3.3.1
 
-**Conda Channel:** conda-forge
+**Conda Channel:** r
 
 ### HPC Modules
 
