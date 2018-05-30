@@ -84,6 +84,7 @@ C++ API & command-line toolkit for working with BAM data
 * gencore_metagenomics-1.1
 * gencore_rad-1.1
 * gencore_rnaseq-1.2
+* gencore_rnaseq-1.3
 * gencore_rnaseq_malaria-1.1
 * gencore_variant_detection-1.1
 
@@ -108,6 +109,7 @@ BCFtools is a set of utilities that manipulate variant calls in the Variant Call
 * gencore_metagenomics-1.1
 * gencore_rad-1.1
 * gencore_rnaseq-1.2
+* gencore_rnaseq-1.3
 * gencore_rnaseq_malaria-1.1
 * gencore_variant_detection-1.1
 
@@ -132,6 +134,7 @@ A powerful toolset for genome arithmetic
 * gencore_metagenomics-1.1
 * gencore_rad-1.1
 * gencore_rnaseq-1.2
+* gencore_rnaseq-1.3
 * gencore_rnaseq_malaria-1.1
 * gencore_variant_detection-1.1
 
@@ -149,6 +152,7 @@ Tools for statistical analysis of assembled transcriptomes, including flexible d
 ### HPC Modules
 
 * gencore_rnaseq-1.2
+* gencore_rnaseq-1.3
 
 
 ## Bioconductor-biobase
@@ -209,6 +213,7 @@ The biovizBase package is designed to provide a set of utilities, color schemes 
 ### HPC Modules
 
 * gencore_rnaseq-1.2
+* gencore_rnaseq-1.3
 
 
 ## Bioconductor-cummerbund
@@ -239,6 +244,7 @@ Allows for persistent storage, access, exploration, and manipulation of Cufflink
 ### HPC Modules
 
 * gencore_rnaseq-1.2
+* gencore_rnaseq-1.3
 
 
 ## Bioconductor-dada2
@@ -270,6 +276,21 @@ Estimate variance-mean dependence in count data from high-throughput sequencing 
 
 * gencore_de_novo_transcriptome-1.1
 * gencore_rnaseq_malaria-1.1
+
+
+## Bioconductor-deseq2
+
+### Summary
+
+Estimate variance-mean dependence in count data from high-throughput sequencing assays and test for differential expression based on a model using the negative binomial distribution.
+
+**Version:** latest
+
+**Conda Channel:** bioconda
+
+### HPC Modules
+
+* gencore_rnaseq-1.3
 
 
 ## Bioconductor-deseq2>
@@ -317,6 +338,7 @@ Differential expression analysis of RNA-seq expression profiles with biological 
 
 * gencore_de_novo_transcriptome-1.1
 * gencore_rnaseq-1.2
+* gencore_rnaseq-1.3
 * gencore_rnaseq_malaria-1.1
 
 
@@ -335,6 +357,21 @@ The ability to efficiently represent and manipulate genomic annotations and alig
 * gencore_rnaseq-1.2
 
 
+## Bioconductor-genomicranges
+
+### Summary
+
+The ability to efficiently represent and manipulate genomic annotations and alignments is playing a central role when it comes to analyzing high-throughput sequencing data (a.k.a. NGS data). The GenomicRanges package defines general purpose containers for storing and manipulating genomic intervals and variables defined along a genome. More specialized containers for representing and manipulating short alignments against a reference genome, or a matrix-like summarization of an experiment, are defined in the GenomicAlignments and SummarizedExperiment packages respectively. Both packages build on top of the GenomicRanges infrastructure.
+
+**Version:** latest
+
+**Conda Channel:** bioconda
+
+### HPC Modules
+
+* gencore_rnaseq-1.3
+
+
 ## Bioconductor-gviz
 
 ### Summary
@@ -348,6 +385,7 @@ Genomic data analyses requires integrated visualization of known genomic informa
 ### HPC Modules
 
 * gencore_rnaseq-1.2
+* gencore_rnaseq-1.3
 
 
 ## Bioconductor-s4vectors
@@ -363,6 +401,21 @@ The S4Vectors package defines the Vector and List virtual classes and a set of g
 ### HPC Modules
 
 * gencore_rnaseq-1.2
+
+
+## Bioconductor-s4vectors
+
+### Summary
+
+The S4Vectors package defines the Vector and List virtual classes and a set of generic functions that extend the semantic of ordinary vectors and lists in R. Package developers can easily implement vector-like or list-like objects as concrete subclasses of Vector or List. In addition, a few low-level concrete subclasses of general interest (e.g. DataFrame, Rle, and Hits) are implemented in the S4Vectors package itself (many more are implemented in the IRanges package and in other Bioconductor infrastructure packages).
+
+**Version:** latest
+
+**Conda Channel:** bioconda
+
+### HPC Modules
+
+* gencore_rnaseq-1.3
 
 
 ## Blast
@@ -405,6 +458,7 @@ BLAT is a bioinformatics software tool which performs rapid mRNA/DNA and cross-s
 * gencore_metagenomics-1.1
 * gencore_rad-1.1
 * gencore_rnaseq-1.2
+* gencore_rnaseq-1.3
 * gencore_rnaseq_malaria-1.1
 * gencore_variant_detection-1.1
 
@@ -428,6 +482,7 @@ Fast and sensitive read alignment
 * gencore_metagenomics-1.1
 * gencore_rad-1.1
 * gencore_rnaseq-1.2
+* gencore_rnaseq-1.3
 * gencore_rnaseq_malaria-1.1
 * gencore_variant_detection-1.1
 
@@ -514,6 +569,21 @@ Transcriptome assembly and differential expression analysis for RNA-Seq
 ### HPC Modules
 
 * gencore_rnaseq-1.2
+
+
+## Cufflinks-patch
+
+### Summary
+
+Transcriptome assembly and differential expression analysis for RNA-Seq
+
+**Version:** latest
+
+**Conda Channel:** nyuad-cgsb
+
+### HPC Modules
+
+* gencore_rnaseq-1.3
 
 
 ## Cufflinks
@@ -609,6 +679,7 @@ A quality control tool for high throughput sequence data.
 
 * gencore_qc-1.1
 * gencore_rnaseq-1.2
+* gencore_rnaseq-1.3
 
 
 ## Fastx_toolkit
@@ -673,6 +744,7 @@ The full Genome Analysis Toolkit (GATK) framework, license restricted.
 
 * gencore_de_novo_genomic-1.1
 * gencore_rnaseq-1.2
+* gencore_rnaseq-1.3
 
 
 ## Gcc
@@ -733,6 +805,7 @@ graph-based alignment of next generation sequencing reads to a population of gen
 ### HPC Modules
 
 * gencore_rnaseq-1.2
+* gencore_rnaseq-1.3
 
 
 ## Hmmer
@@ -768,6 +841,7 @@ HTSeq is a Python library to facilitate processing and analysis of data from hig
 
 * gencore_de_novo_transcriptome-1.1
 * gencore_rnaseq-1.2
+* gencore_rnaseq-1.3
 * gencore_rnaseq_malaria-1.1
 
 
@@ -830,6 +904,21 @@ Quantifying abundances of transcripts from RNA-Seq data, or more generally of ta
 
 * gencore_rnaseq-1.2
 * gencore_rnaseq_malaria-1.1
+
+
+## Kallisto
+
+### Summary
+
+Quantifying abundances of transcripts from RNA-Seq data, or more generally of target sequences using high-throughput sequencing reads.
+
+**Version:** latest
+
+**Conda Channel:** bioconda
+
+### HPC Modules
+
+* gencore_rnaseq-1.3
 
 
 ## Kmergenie
@@ -1247,6 +1336,7 @@ Java tools for working with NGS data in the BAM format
 * gencore_de_novo_metagenomic-1.1
 * gencore_de_novo_transcriptome-1.1
 * gencore_rnaseq-1.2
+* gencore_rnaseq-1.3
 * gencore_variant_detection-1.1
 
 
@@ -1281,6 +1371,7 @@ PRINSEQ can be used to filter, reformat, or trim your genomic and metagenomic se
 * gencore_de_novo_metagenomic-1.1
 * gencore_de_novo_transcriptome-1.1
 * gencore_rnaseq-1.2
+* gencore_rnaseq-1.3
 * gencore_rnaseq_malaria-1.1
 * gencore_variant_detection-1.1
 
@@ -1434,7 +1525,6 @@ R is a free software environment for statistical computing and graphics.
 ### HPC Modules
 
 * gencore_base-1.1
-* gencore_rnaseq-1.2
 * gencore_variant_detection-1.1
 
 
@@ -1446,11 +1536,12 @@ R is a free software environment for statistical computing and graphics.
 
 **Version:** latest
 
-**Conda Channel:** r
+**Conda Channel:** conda-forge
 
 ### HPC Modules
 
 * gencore_r-3.3.1
+* gencore_rnaseq-1.3
 
 
 ## R-cairo
@@ -1466,22 +1557,24 @@ R is a free software environment for statistical computing and graphics.
 ### HPC Modules
 
 * gencore_rnaseq-1.2
+* gencore_rnaseq-1.3
 
 
 ## R-essentials
 
 ### Summary
 
-Some essential packages for working with R
+Some essential packages for working with R. This was migrated from the 'r' channel.
 
 **Version:** latest
 
-**Conda Channel:** r
+**Conda Channel:** conda-forge
 
 ### HPC Modules
 
 * gencore_r-3.3.1
 * gencore_rnaseq-1.2
+* gencore_rnaseq-1.3
 * gencore_variant_detection-1.1
 
 
@@ -1504,15 +1597,16 @@ Some essential packages for working with R
 
 ### Summary
 
-The enhanced distribution of R from Microsoft Corporation.
+R is a free software environment for statistical computing and graphics.
 
 **Version:** latest
 
-**Conda Channel:** r
+**Conda Channel:** conda-forge
 
 ### HPC Modules
 
 * gencore_r-3.3.1
+* gencore_rnaseq-1.2
 
 
 ## Rainbow
@@ -1611,6 +1705,7 @@ Tools for dealing with SAM, BAM and CRAM files
 * gencore_metagenomics-1.1
 * gencore_rad-1.1
 * gencore_rnaseq-1.2
+* gencore_rnaseq-1.3
 * gencore_rnaseq_malaria-1.1
 * gencore_variant_detection-1.1
 
@@ -1648,6 +1743,7 @@ Seqtk is a fast and lightweight tool for processing sequences in the FASTA or FA
 * gencore_metagenomics-1.1
 * gencore_rad-1.1
 * gencore_rnaseq-1.2
+* gencore_rnaseq-1.3
 * gencore_rnaseq_malaria-1.1
 * gencore_variant_detection-1.1
 
@@ -1803,6 +1899,7 @@ An RNA-seq read aligner.
 
 * gencore_de_novo_transcriptome-1.1
 * gencore_rnaseq-1.2
+* gencore_rnaseq-1.3
 * gencore_rnaseq_malaria-1.1
 * gencore_variant_detection-1.1
 
@@ -1820,6 +1917,7 @@ Transcriptome assembly and quantification for RNA-seq
 ### HPC Modules
 
 * gencore_rnaseq-1.2
+* gencore_rnaseq-1.3
 
 
 ## Tophat
@@ -1837,6 +1935,7 @@ A spliced read mapper for RNA-Seq
 * gencore_annotation-1.1
 * gencore_de_novo_transcriptome-1.1
 * gencore_rnaseq-1.2
+* gencore_rnaseq-1.3
 * gencore_rnaseq_malaria-1.1
 * gencore_variant_detection-1.1
 
@@ -1888,6 +1987,7 @@ Genetic variant annotation and effect prediction toolbox
 * gencore_de_novo_transcriptome-1.1
 * gencore_qc-1.1
 * gencore_rnaseq-1.2
+* gencore_rnaseq-1.3
 
 
 ## Trinity
@@ -1945,6 +2045,21 @@ Command-line tools for manipulating VCF files
 * gencore_variant_detection-1.1
 
 
+## Vcflib
+
+### Summary
+
+Command-line tools for manipulating VCF files
+
+**Version:** latest
+
+**Conda Channel:** bioconda
+
+### HPC Modules
+
+* gencore_rnaseq-1.3
+
+
 ## Vcftools
 
 ### Summary
@@ -1965,6 +2080,7 @@ A set of tools written in Perl and C++ for working with VCF files. This package 
 * gencore_metagenomics-1.1
 * gencore_rad-1.1
 * gencore_rnaseq-1.2
+* gencore_rnaseq-1.3
 * gencore_rnaseq_malaria-1.1
 * gencore_variant_detection-1.1
 

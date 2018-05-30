@@ -65,13 +65,13 @@ Allows for persistent storage, access, exploration, and manipulation of Cufflink
 
 
 
-### bioconductor-deseq2>
-**Version:** 1.12.4
+### bioconductor-deseq2
+**Version:** latest
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 #### Summary:
-
+Estimate variance-mean dependence in count data from high-throughput sequencing assays and test for differential expression based on a model using the negative binomial distribution.
 
 
 
@@ -86,7 +86,7 @@ Differential expression analysis of RNA-seq expression profiles with biological 
 
 
 ### bioconductor-genomicranges
-**Version:** 1.26.1
+**Version:** latest
 
 **Conda Channel:** bioconda
 
@@ -106,7 +106,7 @@ Genomic data analyses requires integrated visualization of known genomic informa
 
 
 ### bioconductor-s4vectors
-**Version:** 0.12.0
+**Version:** latest
 
 **Conda Channel:** bioconda
 
@@ -136,7 +136,7 @@ Fast and sensitive read alignment
 
 
 ### cufflinks-patch
-**Version:** 2.2.1
+**Version:** latest
 
 **Conda Channel:** nyuad-cgsb
 
@@ -186,7 +186,7 @@ HTSeq is a Python library to facilitate processing and analysis of data from hig
 
 
 ### kallisto
-**Version:** 0.43.0
+**Version:** latest
 
 **Conda Channel:** bioconda
 
@@ -215,7 +215,7 @@ PRINSEQ can be used to filter, reformat, or trim your genomic and metagenomic se
 
 
 
-### r
+### r-base
 **Version:** latest
 
 **Conda Channel:** conda-forge
@@ -306,7 +306,7 @@ Genetic variant annotation and effect prediction toolbox
 
 
 ### vcflib
-**Version:** 1.0.0_rc1
+**Version:** latest
 
 **Conda Channel:** bioconda
 
