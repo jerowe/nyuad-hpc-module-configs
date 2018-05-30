@@ -3,6 +3,7 @@ FROM quay.io/nyuad_cgsb/gencore_biosails
 
 WORKDIR $HOME/.eb/custom_repos/nyuad-hpc-module-configs
 
+
 RUN git pull origin master
 
 RUN cat $ROBOT/{{name}}-{{version}}.eb
