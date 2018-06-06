@@ -1,6 +1,7 @@
 #!/usr/bin/env bash 
 
 source ~/.bashrc
+source /usr/share/lmod/lmod/init/bash
 source activate $EB_ENV
 module load gencore_biosails
 

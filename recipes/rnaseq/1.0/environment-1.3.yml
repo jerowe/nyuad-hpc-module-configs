@@ -24,7 +24,7 @@ dependencies:
   - seqtk=1.2
   - bowtie2=2.2.8
   - tophat=2.1.0
-  - cufflinks-patch
+  - cufflinks
   - r-base
   - r-essentials
   - r-cairo
