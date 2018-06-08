@@ -135,13 +135,13 @@ Fast and sensitive read alignment
 
 
 
-### cufflinks-patch
+### cufflinks
 **Version:** latest
 
-**Conda Channel:** nyuad-cgsb
+**Conda Channel:** bioconda
 
 #### Summary:
-Transcriptome assembly and differential expression analysis for RNA-Seq
+Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 
 
@@ -218,7 +218,7 @@ PRINSEQ can be used to filter, reformat, or trim your genomic and metagenomic se
 ### r-base
 **Version:** latest
 
-**Conda Channel:** r
+**Conda Channel:** conda-forge
 
 #### Summary:
 R is a free software environment for statistical computing and graphics.

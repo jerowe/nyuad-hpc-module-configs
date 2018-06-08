@@ -218,10 +218,10 @@ PRINSEQ can be used to filter, reformat, or trim your genomic and metagenomic se
 ### r
 **Version:** latest
 
-**Conda Channel:** r
+**Conda Channel:** conda-forge
 
 #### Summary:
-The enhanced distribution of R from Microsoft Corporation.
+R is a free software environment for statistical computing and graphics.
 
 
 
