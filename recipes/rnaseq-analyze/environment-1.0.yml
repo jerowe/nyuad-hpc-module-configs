@@ -1,0 +1,22 @@
+name: gencore_rnaseq_analyze
+version: 1.0
+build: 0
+channels:
+  - nyuad-cgsb
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - r-base
+  - r-essentials
+  - r-cairo
+  - bioconductor-deseq2
+  - bioconductor-edger>=3.14.0
+  - bioconductor-cummerbund>=2.16.0
+  - bioconductor-genomicranges
+  - bioconductor-gviz=1.16.5
+  - bioconductor-biovizbase=1.18.0
+  - bioconductor-s4vectors
+  - bioconductor-ballgown=2.2.0
+  - bioconductor-ebseq
+  - bioconductor-rnaseq
