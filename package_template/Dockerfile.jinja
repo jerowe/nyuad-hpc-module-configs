@@ -3,15 +3,22 @@ FROM quay.io/nyuad_cgsb/gencore_biosails
 
 WORKDIR $HOME/.eb/custom_repos/nyuad-hpc-module-configs
 
+ENV PATH=/usr/share/lmod/lmod/libexec:$PATH
 RUN git pull origin master
 
 RUN cat $ROBOT/{{name}}-{{version}}.eb
 
-RUN bash -c "source activate $EB_ENV && \
-	eb  --robot --robot-paths=$ROBOT  {{ name }}-{{ version }}.eb && \
-        module avail"
+RUN bash -c "source /usr/share/lmod/lmod/init/bash &&  module load  Anaconda3 && \
+	pip install git+https://github.com/nyuad-cgsb/gencore_app"
 
-RUN echo "source activate $EB_ENV" >> ~/.bashrc
+RUN bash -c "source activate $EB_ENV && \
+	echo "parallel install" && \
+        find $ROBOT/../recipes -name {{ name }} | grep {{ version }} | xargs -I {} gencore_app parallel_install -e {}"
+
+RUN bash -c "source activate $EB_ENV && \
+	eb  --robot --robot-paths=$ROBOT  {{ name }}-{{ version }}.eb"
+
+RUN bash -c "source /usr/share/lmod/lmod/init/bash &&  module load {{name}} && conda clean --all"
 RUN echo "module load {{name}}" >> ~/.bashrc
 
 ENTRYPOINT ["/home/ebuser/bin/bash_entrypoint.sh"]

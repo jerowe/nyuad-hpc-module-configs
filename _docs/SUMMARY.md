@@ -23,6 +23,8 @@
 	* [Gencore_rad-1.1](environment/gencore_rad-1.1.md)
 	* [Gencore_rad_ddocent-1.1](environment/gencore_rad_ddocent-1.1.md)
 	* [Gencore_rnaseq-1.2](environment/gencore_rnaseq-1.2.md)
+	* [Gencore_rnaseq-1.3](environment/gencore_rnaseq-1.3.md)
+	* [Gencore_rnaseq-1.4](environment/gencore_rnaseq-1.4.md)
 	* [Gencore_rnaseq_malaria-1.1](environment/gencore_rnaseq_malaria-1.1.md)
 	* [Gencore_trinity-1.1](environment/gencore_trinity-1.1.md)
 	* [Gencore_variant_detection-1.1](environment/gencore_variant_detection-1.1.md)

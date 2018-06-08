@@ -18,17 +18,17 @@ Functions that are needed by many other packages or which replace R functions.
 ### r
 **Version:** latest
 
-**Conda Channel:** r
+**Conda Channel:** conda-forge
 
 #### Summary:
-The enhanced distribution of R from Microsoft Corporation.
+R is a free software environment for statistical computing and graphics.
 
 
 
 ### r-base
 **Version:** latest
 
-**Conda Channel:** r
+**Conda Channel:** conda-forge
 
 #### Summary:
 R is a free software environment for statistical computing and graphics.

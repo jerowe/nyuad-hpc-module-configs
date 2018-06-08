@@ -17,7 +17,7 @@ description = """ gencore_python """
 
 toolchain = {'name': 'dummy', 'version': ''}
 
-builddependencies = [('gencore_anaconda3', '5.0.1')]
+builddependencies = [('Anaconda3', '5.0.1')]
 
 #sources = ["environment.yml"]
 #environment_file = sources[0]
