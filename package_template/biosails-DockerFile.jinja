@@ -17,6 +17,7 @@ RUN bash -c "source activate $EB_ENV && \
 	eb  --robot --robot-paths=$ROBOT  {{ name }}-{{ version }}.eb"
 
 RUN bash -c "source /usr/share/lmod/lmod/init/bash &&  module load gencore_biosails && conda clean --all"
+RUN bash -c "source /usr/share/lmod/lmod/init/bash &&  module load Anaconda3 && conda install -y r-base r-essentials openjdk perl"
 
 RUN echo "module load gencore_biosails" >> ~/.bashrc
 

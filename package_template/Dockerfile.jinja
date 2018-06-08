@@ -12,10 +12,13 @@ RUN bash -c "source /usr/share/lmod/lmod/init/bash &&  module load  Anaconda3 &&
 	pip install git+https://github.com/nyuad-cgsb/gencore_app"
 
 RUN bash -c "source activate $EB_ENV && \
-	pip install git+https://github.com/nyuad-cgsb/gencore_app && \
+	echo "parallel install" && \
+        find $ROBOT/../recipes -name {{ name }} | grep {{ version }} | xargs -I {} gencore_app parallel_install -e {}"
+
+RUN bash -c "source activate $EB_ENV && \
 	eb  --robot --robot-paths=$ROBOT  {{ name }}-{{ version }}.eb"
 
-RUN bash -c "source /usr/share/lmod/lmod/init/bash &&  module load gencore_{{name}} && conda clean --all"
+RUN bash -c "source /usr/share/lmod/lmod/init/bash &&  module load {{name}} && conda clean --all"
 RUN echo "module load {{name}}" >> ~/.bashrc
 
 ENTRYPOINT ["/home/ebuser/bin/bash_entrypoint.sh"]
