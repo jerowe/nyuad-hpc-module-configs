@@ -1046,7 +1046,7 @@ worrying about the minimum required R version.
 ### r-base
 **Version:** latest
 
-**Conda Channel:** r
+**Conda Channel:** conda-forge
 
 #### Summary:
 R is a free software environment for statistical computing and graphics.
@@ -1296,10 +1296,10 @@ A database interface definition for communication between R and relational datab
 ### r-essentials
 **Version:** latest
 
-**Conda Channel:** r
+**Conda Channel:** conda-forge
 
 #### Summary:
-Some essential packages for working with R
+Some essential packages for working with R. This was migrated from the 'r' channel.
 
 
 
@@ -2521,7 +2521,7 @@ An S3 class with methods for totally ordered indexed observations. It is particu
 ### r
 **Version:** latest
 
-**Conda Channel:** r
+**Conda Channel:** conda-forge
 
 #### Summary:
 R is a free software environment for statistical computing and graphics.

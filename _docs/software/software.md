@@ -3562,7 +3562,7 @@ R is a free software environment for statistical computing and graphics.
 
 **Version:** latest
 
-**Conda Channel:** r
+**Conda Channel:** conda-forge
 
 ### HPC Modules
 
@@ -3937,11 +3937,11 @@ A database interface definition for communication between R and relational datab
 
 ### Summary
 
-Some essential packages for working with R
+Some essential packages for working with R. This was migrated from the 'r' channel.
 
 **Version:** latest
 
-**Conda Channel:** r
+**Conda Channel:** conda-forge
 
 ### HPC Modules
 
@@ -5771,7 +5771,7 @@ R is a free software environment for statistical computing and graphics.
 
 **Version:** latest
 
-**Conda Channel:** r
+**Conda Channel:** conda-forge
 
 ### HPC Modules
 
