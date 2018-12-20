@@ -101,7 +101,7 @@ Quality control of alignment sequencing data and its derivatives like feature co
 **Conda Channel:** bioconda
 
 #### Summary:
-Genetic variant annotation and effect prediction toolbox
+A flexible read trimming tool for Illumina NGS data
 
 
 

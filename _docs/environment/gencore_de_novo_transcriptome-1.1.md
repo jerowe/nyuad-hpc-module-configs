@@ -201,7 +201,7 @@ Quality Assessment Tool for Genome Assemblies
 **Conda Channel:** bioconda
 
 #### Summary:
-RSEM (RNA-Seq by Expectation-Maximization)
+RSEM is a software package for estimating gene and isoform expression levels from RNA-Seq data. The RSEM package provides an user-friendly interface, supports threads for parallel computation of the EM algorithm, single-end and paired-end read data, quality scores, variable-length reads and RSPD estimation. In addition, it provides posterior mean and 95% credibility interval estimates for expression levels. For visualization, It can generate BAM and Wiggle files in both transcript-coordinate and genomic-coordinate. Genomic-coordinate files can be visualized by both UCSC Genome browser and Broad Institute's Integrative Genomics Viewer (IGV). Transcript-coordinate files can be visualized by IGV. RSEM also has its own scripts to generate transcript read depth plots in pdf format. The unique feature of RSEM is, the read depth plots can be stacked, with read depth contributed to unique reads shown in black and contributed to multi-reads shown in red. In addition, models learned from data can also be visualized. Last but not least, RSEM contains a simulator.
 
 
 
@@ -271,7 +271,7 @@ A spliced read mapper for RNA-Seq
 **Conda Channel:** bioconda
 
 #### Summary:
-Genetic variant annotation and effect prediction toolbox
+A flexible read trimming tool for Illumina NGS data
 
 
 

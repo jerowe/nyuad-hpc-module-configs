@@ -91,7 +91,7 @@ Differential expression analysis of RNA-seq expression profiles with biological 
 **Conda Channel:** bioconda
 
 #### Summary:
-The ability to efficiently represent and manipulate genomic annotations and alignments is playing a central role when it comes to analyzing high-throughput sequencing data (a.k.a. NGS data). The GenomicRanges package defines general purpose containers for storing and manipulating genomic intervals and variables defined along a genome. More specialized containers for representing and manipulating short alignments against a reference genome, or a matrix-like summarization of an experiment, are defined in the GenomicAlignments and SummarizedExperiment packages respectively. Both packages build on top of the GenomicRanges infrastructure.
+The ability to efficiently represent and manipulate genomic annotations and alignments is playing a central role when it comes to analyzing high-throughput sequencing data (a.k.a. NGS data). The GenomicRanges package defines general purpose containers for storing and manipulating genomic intervals and variables defined along a genome. More specialized containers for representing and manipulating short alignments against a reference genome, or a matrix-like summarization of an experiment, are defined in the GenomicAlignments and SummarizedExperiment packages, respectively. Both packages build on top of the GenomicRanges infrastructure.
 
 
 
@@ -218,7 +218,7 @@ PRINSEQ can be used to filter, reformat, or trim your genomic and metagenomic se
 ### r-base
 **Version:** latest
 
-**Conda Channel:** conda-forge
+**Conda Channel:** r
 
 #### Summary:
 R is a free software environment for statistical computing and graphics.
@@ -238,10 +238,10 @@ R is a free software environment for statistical computing and graphics.
 ### r-essentials
 **Version:** latest
 
-**Conda Channel:** conda-forge
+**Conda Channel:** r
 
 #### Summary:
-Some essential packages for working with R. This was migrated from the 'r' channel.
+Some essential packages for working with R
 
 
 
@@ -301,7 +301,7 @@ A spliced read mapper for RNA-Seq
 **Conda Channel:** bioconda
 
 #### Summary:
-Genetic variant annotation and effect prediction toolbox
+A flexible read trimming tool for Illumina NGS data
 
 
 
