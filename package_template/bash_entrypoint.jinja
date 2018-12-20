@@ -8,6 +8,9 @@ module load gencore_biosails
 ##REMOVE THIS BEFORE FINAL RELEASE
 /home/ebuser/bin/update_hpc_runner.sh
 
+##Load the actual module
+module load {{ name }}
+
 set -x -e
 
 ## This works on AWS
@@ -16,7 +19,7 @@ if [ -z ${AWS_BATCH_JOB_ID+x} ]; then
 	echo "This is an AWS Batch job..."
 	exec "${@}"
 else 
-	echo "var is set to '$var'"; 
+	echo "This is not an aws job"; 
 	bash -c "$@"
 fi
 
