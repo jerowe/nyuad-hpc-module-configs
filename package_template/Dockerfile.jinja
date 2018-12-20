@@ -1,35 +1,24 @@
 ##This should be from BioSAILs
-FROM quay.io/nyuad_cgsb/easybuild
+FROM quay.io/nyuad_cgsb/gencore_biosails
 
 WORKDIR $HOME/.eb/custom_repos/nyuad-hpc-module-configs
 
+ENV PATH=/usr/share/lmod/lmod/libexec:$PATH
 RUN git pull origin master
 
-RUN ls -lah $ROBOT
 RUN cat $ROBOT/{{name}}-{{version}}.eb
 
-RUN bash -c "conda install -y gosu tini"
+RUN bash -c "source /usr/share/lmod/lmod/init/bash &&  module load  Anaconda3 && \
+	pip install git+https://github.com/nyuad-cgsb/gencore_app"
+
 RUN bash -c "source activate $EB_ENV && \
-	eb  --robot --robot-paths=$ROBOT  {{ name }}-{{ version }}.eb && \
-        module avail"
+	eb  --robot --robot-paths=$ROBOT  {{ name }}-{{ version }}.eb"
 
-RUN echo "source activate $EB_ENV" >> ~/.bashrc
-RUN echo "module load gencore_biosails" >> ~/.bashrc
+RUN bash -c "source /usr/share/lmod/lmod/init/bash &&  module load {{name}} && conda clean --all"
+RUN echo "module load {{name}}" >> ~/.bashrc
 
-USER root
+COPY bash_entrypoint.sh /home/ebuser/bin/bash_entrypoint.sh
+#RUN chmod 777 /home/ebuser/bin/*.sh
+#RUN chown -R ebuser:ebuser /home/ebuser/bin
 
-RUN apt-get update -y
-RUN apt-get install awscli unzip -y
-RUN apt-get install -y vim-tiny
-
-COPY fetch_and_run.sh /home/ebuser/fetch_and_run.sh
-RUN chown ebuser:ebuser /home/ebuser/fetch_and_run.sh
-RUN chmod 777 /home/ebuser/fetch_and_run.sh
-
-USER ebuser
-
-WORKDIR /home/ebuser
-CMD ["source activate $EB_ENV"]
-CMD ["module avail"]
-
-ENTRYPOINT ["gosu exec $@"]
+ENTRYPOINT ["/home/ebuser/bin/bash_entrypoint.sh"]

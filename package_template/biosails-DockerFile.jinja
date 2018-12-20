@@ -1,0 +1,59 @@
+##This should be from BioSAILs
+FROM quay.io/nyuad_cgsb/easybuild
+
+WORKDIR $HOME/.eb/custom_repos/nyuad-hpc-module-configs
+
+ENV PATH=/usr/share/lmod/lmod/libexec:$PATH
+
+RUN bash -c "source /usr/share/lmod/lmod/init/bash && module avail"
+
+RUN git pull origin master
+
+RUN ls -lah $ROBOT
+RUN cat $ROBOT/{{name}}-{{version}}.eb
+
+RUN bash -c "source activate $EB_ENV && \
+	pip install git+https://github.com/nyuad-cgsb/gencore_app && \
+	eb  --robot --robot-paths=$ROBOT  {{ name }}-{{ version }}.eb"
+
+RUN bash -c "source /usr/share/lmod/lmod/init/bash &&  module load gencore_biosails && conda clean --all"
+RUN echo "module load gencore_biosails" >> ~/.bashrc
+
+##This is all biosails
+USER root
+
+ENV PATH=/usr/share/lmod/lmod/libexec:$PATH
+#RUN bash -c "conda install -y gosu tini"
+RUN apt-get clean
+RUN apt-get update -y | echo 'Unable to update. Trying to install aws packages anyways'
+RUN apt-get install awscli binutils unzip nfs-common -y
+RUN apt-get install -y vim-tiny
+
+RUN git clone https://github.com/aws/efs-utils
+RUN cd efs-utils && \
+	./build-deb.sh && \ 
+	apt-get -y install ./build/amazon-efs-utils*deb && \
+        cd .. && \
+        rm -rf efs-utils
+
+RUN mkdir /home/ebuser/bin
+##TODO Remove fetch_and_run - is only there for dev
+COPY fetch_and_run.sh /home/ebuser/bin/fetch_and_run.sh
+COPY update_hpc_runner.sh /home/ebuser/bin/update_hpc_runner.sh
+COPY bash_entrypoint.sh /home/ebuser/bin/bash_entrypoint.sh
+RUN chmod 777 /home/ebuser/bin/*.sh
+RUN chown -R ebuser:ebuser /home/ebuser/bin
+
+ENV PATH /home/ebuser/bin:$PATH
+
+RUN mkdir -p /scratch
+RUN chmod 777 -R /scratch
+
+USER ebuser
+
+WORKDIR /home/ebuser
+ENV PATH=/usr/share/lmod/lmod/libexec:$PATH
+CMD ["source activate $EB_ENV"]
+#RUN update_hpc_runner.sh
+
+ENTRYPOINT ["/home/ebuser/bin/bash_entrypoint.sh"]

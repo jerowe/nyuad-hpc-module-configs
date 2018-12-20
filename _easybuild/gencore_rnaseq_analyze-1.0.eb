@@ -8,12 +8,12 @@
 
 easyblock = 'Conda'
 
-name = "gencore_variant_detection"
-version = "1.1"
+name = "gencore_rnaseq_analyze"
+version = "1.0"
 variant = "Linux-x86_64"
 
 homepage = "http://cbi.abudhabi.nyu.edu/w/"
-description = """ gencore_variant_detection """
+description = """ gencore_rnaseq_analyze """
 
 toolchain = {'name': 'dummy', 'version': ''}
 
@@ -21,7 +21,7 @@ builddependencies = [('Anaconda3', '5.0.1')]
 
 #sources = ["environment.yml"]
 #environment_file = sources[0]
-remote_environment="nyuad-cgsb/gencore_variant_detection"
+remote_environment="nyuad-cgsb/gencore_rnaseq_analyze"
 
 sanity_check_paths = {
     'files': ["bin/conda"],
