@@ -13,7 +13,7 @@
 ## We are using miniconda3/python3 from anaconda
 ## Be sure to change this if you are running as a your own user
 ##################################################################
-export ANACONDA3_BASE=/home/jillian/.local/anaconda3
+export ANACONDA3_BASE=$HOME/.local/anaconda3
 
 curl -s -L https://repo.continuum.io/miniconda/Miniconda3-4.2.12-Linux-x86_64.sh  > miniconda.sh && \
     openssl md5 miniconda.sh | grep d0c7c71cc5659e54ab51f2005a8d96f3

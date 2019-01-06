@@ -131,7 +131,7 @@ Expat XML parser library in C.
 **Conda Channel:** conda-forge
 
 #### Summary:
-A library for configuring and customizing font access.
+A library for configuring and customizing font access
 
 
 
@@ -141,7 +141,7 @@ A library for configuring and customizing font access.
 **Conda Channel:** conda-forge
 
 #### Summary:
-A TrueType Font Library.
+A Free, High-Quality, and Portable Font Engine
 
 
 
@@ -191,7 +191,7 @@ Provides core application building blocks for libraries and applications written
 **Conda Channel:** conda-forge
 
 #### Summary:
-
+GStreamer Base Plug-ins
 
 
 
@@ -201,7 +201,7 @@ Provides core application building blocks for libraries and applications written
 **Conda Channel:** conda-forge
 
 #### Summary:
-
+Library for constructing graphs of media-handling components
 
 
 
@@ -298,30 +298,30 @@ A Portable Foreign Function Interface Library
 ### libgcc-ng
 **Version:** latest
 
-**Conda Channel:** default
+**Conda Channel:** conda-forge
 
 #### Summary:
-
+The GCC low-level runtime library
 
 
 
 ### libgcc
 **Version:** latest
 
-**Conda Channel:** default
+**Conda Channel:** conda-forge
 
 #### Summary:
-
+Shared libraries for the GNU Compiler Collection
 
 
 
 ### libgfortran-ng
 **Version:** latest
 
-**Conda Channel:** default
+**Conda Channel:** conda-forge
 
 #### Summary:
-
+The GNU Fortran Runtime Library
 
 
 
@@ -351,7 +351,7 @@ Provides iconv for systems which don't have one (or that cannot convert from/to 
 **Conda Channel:** conda-forge
 
 #### Summary:
-PNG reference library.
+PNG reference library
 
 
 
@@ -368,10 +368,10 @@ PNG reference library.
 ### libstdcxx-ng
 **Version:** latest
 
-**Conda Channel:** default
+**Conda Channel:** conda-forge
 
 #### Summary:
-
+The GNU C++ Runtime Library
 
 
 
@@ -631,7 +631,7 @@ Python 2 and 3 compatibility utilities
 **Conda Channel:** conda-forge
 
 #### Summary:
-Implements a self-contained, zero-configuration, SQL database engine.
+Implements a self-contained, zero-configuration, SQL database engine
 
 
 
@@ -671,9 +671,7 @@ A dynamic programming language with GUI support.  Bundles Tcl and Tk.
 **Conda Channel:** conda-forge
 
 #### Summary:
-Tornado is a Python web framework and asynchronous networking library,
-originally developed at FriendFeed.
-
+A Python web framework and asynchronous networking library, originally developed at FriendFeed.
 
 
 
