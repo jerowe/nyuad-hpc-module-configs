@@ -61,7 +61,7 @@ The BWA read mapper.
 **Conda Channel:** bioconda
 
 #### Summary:
-MACS -- Model-based Analysis of ChIP-Seq
+Model Based Analysis for ChIP-Seq data
 
 
 

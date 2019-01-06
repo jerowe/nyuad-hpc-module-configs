@@ -25,6 +25,7 @@ Tool for automatically generating Makefile.in files compliant with the GNU Codin
 
 
 
+
 ### cmake
 **Version:** 3.7.1
 
@@ -38,20 +39,20 @@ CMake is an extensible, open-source system that manages the build process
 ### gcc
 **Version:** latest
 
-**Conda Channel:** default
+**Conda Channel:** conda-forge
 
 #### Summary:
-
+The GNU Compiler Collection
 
 
 
 ### libgcc
 **Version:** latest
 
-**Conda Channel:** default
+**Conda Channel:** conda-forge
 
 #### Summary:
-
+Shared libraries for the GNU Compiler Collection
 
 
 
