@@ -3507,12 +3507,7 @@ messages so that your users know what they've done wrong.
 
 ### Summary
 
-Implementations of functions which have been introduced in R since version 3.0.0.
-The backports are conditionally exported which results in R resolving the function
-names to the version shipped with R (if available) and uses the implemented backports
-as fallback. This way package developers can make use of the new functions without
-worrying about the minimum required R version.
-
+ Functions introduced or changed since R v3.0.0 are re-implemented in this package. The backports are conditionally exported in order to let R resolve the function name to either the implemented backport, or the respective base version, if available. Package developers can make use of new functions or arguments by selectively importing specific backports to support older installations.
 
 **Version:** latest
 
@@ -3802,7 +3797,7 @@ Methods for Cluster analysis.  Much extended the original from Peter Rousseeuw, 
 
 ### Summary
 
-
+Code analysis tools for R.
 
 **Version:** latest
 
@@ -4249,7 +4244,7 @@ Functions to assist in R programming, including: - assist in developing, updatin
 
 ### Summary
 
-Import foreign statistical formats into R via the embedded 'ReadStat' C library (https://github.com/WizardMac/ReadStat).
+Import foreign statistical formats into R via the embedded 'ReadStat' C library, <https://github.com/WizardMac/ReadStat>.
 
 **Version:** latest
 
@@ -4645,7 +4640,7 @@ Display of maps.  Projection code and larger maps are in separate packages ('map
 
 ### Summary
 
-
+Provides R bindings to the 'Sundown' 'Markdown' rendering library (https://github.com/vmg/sundown). 'Markdown' is a plain-text formatting syntax that can be converted to 'XHTML' or other formats. See http://en.wikipedia.org/wiki/Markdown for more information about 'Markdown'.
 
 **Version:** latest
 
@@ -4750,7 +4745,7 @@ GAMs, GAMMs and other generalized ridge regression with  multiple smoothing para
 
 ### Summary
 
-
+Guesses the MIME type from a filename extension using the data derived from /etc/mime.types in UNIX-type systems.
 
 **Version:** latest
 
@@ -5065,7 +5060,7 @@ Estimation and inference methods for models of conditional quantiles:  Linear an
 
 ### Summary
 
-The R6 package allows the creation of classes with reference semantics, similar to R's built-in reference classes. Compared to reference classes, R6 classes are simpler and lighter-weight, and they are not built on S4 classes so they do not require the methods package. These classes allow public and private members, and they support inheritance, even when the classes are defined in different packages.
+Creates classes with reference semantics, similar to R's built-in reference classes. Compared to reference classes, R6 classes are simpler and lighter-weight, and they are not built on S4 classes so they do not require the methods package. These classes allow public and private members, and they support inheritance, even when the classes are defined in different packages.
 
 **Version:** latest
 
@@ -5212,7 +5207,7 @@ Read flat/tabular text files from disk (or a connection).
 
 ### Summary
 
-Import excel files into R. Supports '.xls' via the embedded 'libxls' C library <https://sourceforge.net/projects/libxls/> and '.xlsx' via the embedded 'RapidXML' C++ library <https://rapidxml.sourceforge.net>. Works on Windows, Mac and Linux without external dependencies.
+Import excel files into R. Supports '.xls' via the embedded 'libxls' C library <https://github.com/evanmiller/libxls> and '.xlsx' via the embedded 'RapidXML' C++ library <https://rapidxml.sourceforge.net>. Works on Windows, Mac and Linux without external dependencies.
 
 **Version:** latest
 
