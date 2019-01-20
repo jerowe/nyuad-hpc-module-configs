@@ -1,11 +1,3 @@
-# os:
-# - linux
-# language: c
-# sudo: required
-# services:
-# - docker
-# install: tests/travis-setup.sh
-# script: tests/travis-run.sh
 language: generic
 sudo: required
 services:
@@ -35,18 +27,18 @@ env:
   - CONTAINER_NAMESPACE: 'nyuad_cgsb'
   - CONDA_PKGS_DIRS: '/opt/anaconda3/pkgs'
   - CONDA_BLD_PATH: '/opt/anaconda3/conda-bld'
-  - CONDA_R: '3.4.1'
-  - CONDA_PERL: '5.22.0'
-  - CONDA_HTSLIB: "1.6"
-  - CONDA_BOOST: "1.64"
-  - CONDA_NPY: "112"
-  - CONDA_NCURSES: "5.9"
-  - CONDA_GSL: "1.16"
-  - CONDA_GMP: "5.1"
-  - CONDA_HDF5: "1.8.17"
-  - CONDA_ZLIB: "1.2.8"
-  - CONDA_BZIP2: "1.0"
-  - CONDA_XZ: "5.2"
+#  - CONDA_R: '3.4.1'
+#  - CONDA_PERL: '5.22.0'
+#  - CONDA_HTSLIB: "1.6"
+#  - CONDA_BOOST: "1.64"
+#  - CONDA_NPY: "112"
+#  - CONDA_NCURSES: "5.9"
+#  - CONDA_GSL: "1.16"
+#  - CONDA_GMP: "5.1"
+#  - CONDA_HDF5: "1.8.17"
+#  - CONDA_ZLIB: "1.2.8"
+#  - CONDA_BZIP2: "1.0"
+#  - CONDA_XZ: "5.2"
   - secure: fnBKqAm8XuaLvHF+KQk+Rc0TPsRI5d66sJiiY+fJB8pTnw2swG2LJfOa6+qDRHaBNwh9SgGPVak1czo3vKzeW+Mg1DHLD6MEhXVTeKqiyfiTw29CjBUhVWgZ+9B4cCg4GuQV/CdZVT1D7KQSS/Gryhects3gQSsx2KBecIkXpusx9XkPiwolcqiaUS3tkjvTdeVRb5r/HRNeW1v35WZlmaqKaa0BSMig6LAmX5SyQYOwbMl/dwobGFbBfhIvwbVqZ63YtljcCpJ9PTl8CRwXIajsw23x4SR26Im6NYaYjdnH9h5wNa5MvpIBiap95BpEd/WJ5yEG+/TmDOOOqQpfyNFVQwfblh6Mkrwz4KsLfdxNV8wHavzGIeOMZ+Vg4uE/OamQtOzXNVf7BpTBADE8CTgw8UWAQMnQKCR001OfSKiXeSMBdsanel5GVpSf8OoOWrQp7RafkNCNDHrgpyrViRT05TeLFqdoqb8JRL+iCSBkX544Rtt5dRTrMVWMVkAIsp7lYbiI1Prhk2E3jsNFXBYqzZcr2DgrMcMsdVJOBzt2PsdZHvnXcAx+GPQkNgg/W6f0lQB5Ch05+4nzzFBURwcGBwuNKjT1PybaB6X818lFGvy3LmAueAmaEUbf0yMIb9mtt+iJwxylZBQ8xQkxsQvxqCT9l74XH2WS0+uKvrA=
   - secure: NlIVXIZul4sqGKuPFiwMiK+CQrCn9sDQ/cl2VZv6P13aaUCGaGk8WtNMHA7AxFUpTqNPiA4YFq4cMvcpjKDLsHKauAg8CTqVK1fQ9B13RRDnGp7fYJO6BhcgqNKVfV0ohtr5qVxBblG8/bkRGy64zmFGyMTrapqm6CQDLtErq1TXP4YtFhMoMyWAXmwSSh02iiWih7NibvbLx/l+EQdXfDSeLNvqGTPOU/tHv3IPgkgFvu7CBwQ/efXqyoqmOzZZXvssn+0f+/9jQB+yE0x60PZoeL9SOkb1LV6LJmMLn5n6v4rDXYe+GxlvcJmgdjs3HtfTvMQcpySJHryBdzgsjUq/cDVLXxcHHhTGQU0WbOD/jcaAXcNlXx4EUAbUFfILIQXu0QM+9+Z9ZIq5BGnydOnynM6ZX3Rq2Gwp5/7Ynjyh6vzlq5m/c+jkFDTjN0ZuzZWHIVEuiLnoJ9q9lINENCLibKremyC6cGVTEnL4WSXtkpDcioK//v1A1IgQVclAlw15TsfKYDD5jSOkA9JpOhIWRBz3BzKxlbZQhaKr8xLJ9Box6SyT3iT/he9lX0InsSLzdVJfZ50Zu2e+a1lhssRpv5tTxQZqNZ0+SrjIjUYhk9uZ9MT/zhgB1YTxIWkTb2/9X3atyoPEtfwNdOYwQ/1f6TcHgIx0nNXc9jOsFWs=
   - secure: eT4kq67PSm1hEMiBVYal6EONDkbIiKRpiuCMaKaIQRwofp3IYfHjU3gCnDfb00nt+gOhcmEby3+OBFk3oLFpE/127M17xaY6AR3EjubuOhbYN41ogTqu1+p7ufIUwmiU1T+aMPqZYNmg4D4tP16V5UoPIqD1ZKTqLWBi7o/f8wO4WMLLTZxb/TQfvTmNQwi5uuDWv/W66M/Cjh5fLhiFmLZ+cSIv/WgMrZuwP0l3vi8tU1TR7OrExYp9AiVWKEITdkzuPTCBHF5kZmZL+0V/HosDss3anlZjFmoxo58GWCBUiS2ttz/QqKfcLNiMgDH59P+XBQc5VBuI7QglzhdkF3bm76QfZ9lpSsKBhk2apNbj+NDbv47EKlDZjh0oJ//D3SIdkbvDpsjIRVr6CTBWXpXsqOU493jajE/N6Zuxl9BeMyipmAm03J/AuY7eWRtZ0AjU6HmrPaMi3dC4BGI239lrOCA/yktLeNdlWRhktkjSn9AhPm1+5TBvQdxFA4tXiiI58D+Xitw6piBel1MMDRFqQOBLP3YcV4FUVs3WDccxgTi+uBptdGolg4TVobFoGCMU7Drni+LL/kVSZOJuidm0G4Dugl260HDB117xdhzGH3AQ/BXQMEzH1ZKsup9xts1DPfswkKsiaKaIDebBSduYxi6J39dSCSGbgPDKk5U=
