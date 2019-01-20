@@ -27,7 +27,7 @@ jobs:
     script: travis_wait 60 scripts/travis-run.sh
 env:
   global:
-  - RECIPES: recipes
+#  - RECIPES: recipes
   - ANACONDA_USER: nyuad-cgsb
   - GITHUB_USER: nyuad-cgsb
   - GITHUB_REPO: nyuad-hpc-module-configs
