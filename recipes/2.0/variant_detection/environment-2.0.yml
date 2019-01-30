@@ -28,4 +28,4 @@ dependencies:
 - r-base=3.3.1
 - r-essentials
 - bioconductor-biobase=2.32.0
-- ensembl-vep=9.5.1
+- ensembl-vep
