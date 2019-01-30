@@ -1,5 +1,20 @@
 # Software
 
+## Bamtools
+
+### Summary
+
+C++ API & command-line toolkit for working with BAM data
+
+**Version:** 2.4.0
+
+**Conda Channel:** bioconda
+
+### HPC Modules
+
+* gencore_variant_detection-2.0
+
+
 ## Bcftools
 
 ### Summary
@@ -12,7 +27,69 @@ BCFtools is a set of utilities that manipulate variant calls in the Variant Call
 
 ### HPC Modules
 
+* gencore_aligners-2.0
 * gencore_rnaseq_align-2.0
+* gencore_variant_detection-2.0
+
+
+## Bedtools
+
+### Summary
+
+A powerful toolset for genome arithmetic
+
+**Version:** 2.25.0
+
+**Conda Channel:** bioconda
+
+### HPC Modules
+
+* gencore_variant_detection-2.0
+
+
+## Bioconductor-biobase
+
+### Summary
+
+Functions that are needed by many other packages or which replace R functions.
+
+**Version:** 2.32.0
+
+**Conda Channel:** bioconda
+
+### HPC Modules
+
+* gencore_variant_detection-2.0
+
+
+## Blast
+
+### Summary
+
+BLAST+ is a new suite of BLAST tools that utilizes the NCBI C++ Toolkit.
+
+**Version:** 2.2.31
+
+**Conda Channel:** bioconda
+
+### HPC Modules
+
+* gencore_variant_detection-2.0
+
+
+## Blat
+
+### Summary
+
+BLAT is a bioinformatics software tool which performs rapid mRNA/DNA and cross-species protein alignments.
+
+**Version:** 35
+
+**Conda Channel:** bioconda
+
+### HPC Modules
+
+* gencore_variant_detection-2.0
 
 
 ## Bowtie2
@@ -27,6 +104,7 @@ Fast and sensitive read alignment
 
 ### HPC Modules
 
+* gencore_aligners-2.0
 * gencore_rnaseq_align-2.0
 
 
@@ -42,6 +120,7 @@ The BWA read mapper.
 
 ### HPC Modules
 
+* gencore_aligners-2.0
 * gencore_rnaseq_align-2.0
 
 
@@ -75,6 +154,51 @@ A set of user-friendly tools for normalization and visualzation of deep-sequenci
 * gencore_qc-2.0
 
 
+## Discovar
+
+### Summary
+
+Suitable for variant calling with reference and de novo assembly of small genomes.
+
+**Version:** 52488
+
+**Conda Channel:** bioconda
+
+### HPC Modules
+
+* gencore_variant_detection-2.0
+
+
+## Discovardenovo
+
+### Summary
+
+Suitable for de novo assembly of large and small genomes.
+
+**Version:** 52488
+
+**Conda Channel:** bioconda
+
+### HPC Modules
+
+* gencore_variant_detection-2.0
+
+
+## Ensembl-vep
+
+### Summary
+
+The VEP determines the effect of your variants (SNPs, insertions, deletions, CNVs or structural variants) on genes, transcripts, and protein sequence, as well as regulatory regions.
+
+**Version:** latest
+
+**Conda Channel:** bioconda
+
+### HPC Modules
+
+* gencore_variant_detection-2.0
+
+
 ## Fastqc
 
 ### Summary
@@ -105,6 +229,36 @@ A quality control tool for high throughput sequence data.
 * gencore_qc-2.0
 
 
+## Freebayes
+
+### Summary
+
+Bayesian haplotype-based polymorphism discovery and genotyping
+
+**Version:** 1.0.2.29
+
+**Conda Channel:** bioconda
+
+### HPC Modules
+
+* gencore_variant_detection-2.0
+
+
+## Gatk
+
+### Summary
+
+The full Genome Analysis Toolkit (GATK) framework, license restricted.
+
+**Version:** 3.5
+
+**Conda Channel:** bioconda
+
+### HPC Modules
+
+* gencore_variant_detection-2.0
+
+
 ## Hisat2
 
 ### Summary
@@ -117,6 +271,7 @@ graph-based alignment of next generation sequencing reads to a population of gen
 
 ### HPC Modules
 
+* gencore_aligners-2.0
 * gencore_rnaseq_align-2.0
 
 
@@ -132,6 +287,7 @@ Quantifying abundances of transcripts from RNA-Seq data, or more generally of ta
 
 ### HPC Modules
 
+* gencore_aligners-2.0
 * gencore_rnaseq_align-2.0
 
 
@@ -148,6 +304,51 @@ Create aggregate bioinformatics analysis reports across many samples and tools
 ### HPC Modules
 
 * gencore_qc-2.0
+
+
+## Pear
+
+### Summary
+
+paired-end read merger
+
+**Version:** 0.9.6
+
+**Conda Channel:** bioconda
+
+### HPC Modules
+
+* gencore_variant_detection-2.0
+
+
+## Picard
+
+### Summary
+
+Java tools for working with NGS data in the BAM format
+
+**Version:** 2.5.0
+
+**Conda Channel:** bioconda
+
+### HPC Modules
+
+* gencore_variant_detection-2.0
+
+
+## Prinseq
+
+### Summary
+
+PRINSEQ can be used to filter, reformat, or trim your genomic and metagenomic sequence data
+
+**Version:** 0.20.4
+
+**Conda Channel:** bioconda
+
+### HPC Modules
+
+* gencore_variant_detection-2.0
 
 
 ## Pyfaidx
@@ -225,6 +426,36 @@ Quality control of alignment sequencing data and its derivatives like feature co
 * gencore_qc-2.0
 
 
+## R-base
+
+### Summary
+
+R is a free software environment for statistical computing and graphics.
+
+**Version:** 3.3.1
+
+**Conda Channel:** conda-forge
+
+### HPC Modules
+
+* gencore_variant_detection-2.0
+
+
+## R-essentials
+
+### Summary
+
+Some essential packages for working with R. This was migrated from the 'r' channel.
+
+**Version:** latest
+
+**Conda Channel:** conda-forge
+
+### HPC Modules
+
+* gencore_variant_detection-2.0
+
+
 ## Salmon
 
 ### Summary
@@ -237,6 +468,7 @@ Highly-accurate & wicked fast transcript-level quantification from RNA-seq reads
 
 ### HPC Modules
 
+* gencore_aligners-2.0
 * gencore_rnaseq_align-2.0
 
 
@@ -252,7 +484,54 @@ Tools for dealing with SAM, BAM and CRAM files
 
 ### HPC Modules
 
+* gencore_aligners-2.0
 * gencore_rnaseq_align-2.0
+* gencore_variant_detection-2.0
+
+
+## Seqtk
+
+### Summary
+
+Seqtk is a fast and lightweight tool for processing sequences in the FASTA or FASTQ format
+
+**Version:** 1.2
+
+**Conda Channel:** bioconda
+
+### HPC Modules
+
+* gencore_variant_detection-2.0
+
+
+## Snpeff
+
+### Summary
+
+Genetic variant annotation and effect prediction toolbox
+
+**Version:** 4.3
+
+**Conda Channel:** bioconda
+
+### HPC Modules
+
+* gencore_variant_detection-2.0
+
+
+## Snpsift
+
+### Summary
+
+Toolbox that allows you to filter and manipulate annotated files
+
+**Version:** 4.3
+
+**Conda Channel:** bioconda
+
+### HPC Modules
+
+* gencore_variant_detection-2.0
 
 
 ## Star
@@ -267,6 +546,7 @@ An RNA-seq read aligner.
 
 ### HPC Modules
 
+* gencore_aligners-2.0
 * gencore_rnaseq_align-2.0
 
 
@@ -282,6 +562,7 @@ A spliced read mapper for RNA-Seq
 
 ### HPC Modules
 
+* gencore_aligners-2.0
 * gencore_rnaseq_align-2.0
 
 
@@ -298,5 +579,35 @@ A flexible read trimming tool for Illumina NGS data
 ### HPC Modules
 
 * gencore_qc-2.0
+
+
+## Vcflib
+
+### Summary
+
+Command-line tools for manipulating VCF files
+
+**Version:** 1.0.0_rc1
+
+**Conda Channel:** bioconda
+
+### HPC Modules
+
+* gencore_variant_detection-2.0
+
+
+## Vcftools
+
+### Summary
+
+A set of tools written in Perl and C++ for working with VCF files. This package only contains the C++ libraries whereas the package perl-vcftools-vcf contains the perl libraries
+
+**Version:** 0.1.14
+
+**Conda Channel:** bioconda
+
+### HPC Modules
+
+* gencore_variant_detection-2.0
 
 
