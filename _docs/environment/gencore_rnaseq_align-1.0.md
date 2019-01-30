@@ -158,30 +158,30 @@ A network authentication protocol.
 ### libgcc-ng
 **Version:** latest
 
-**Conda Channel:** default
+**Conda Channel:** conda-forge
 
 #### Summary:
-
+The GCC low-level runtime library
 
 
 
 ### libgcc
 **Version:** latest
 
-**Conda Channel:** default
+**Conda Channel:** conda-forge
 
 #### Summary:
-
+Shared libraries for the GNU Compiler Collection
 
 
 
 ### libgfortran-ng
 **Version:** latest
 
-**Conda Channel:** default
+**Conda Channel:** conda-forge
 
 #### Summary:
-
+The GNU Fortran Runtime Library
 
 
 
@@ -218,10 +218,10 @@ Fortran libraries from the GNU Compiler Collection
 ### libstdcxx-ng
 **Version:** latest
 
-**Conda Channel:** default
+**Conda Channel:** conda-forge
 
 #### Summary:
-
+The GNU C++ Runtime Library
 
 
 
@@ -381,7 +381,7 @@ Download, build, install, upgrade, and uninstall Python packages
 **Conda Channel:** conda-forge
 
 #### Summary:
-Implements a self-contained, zero-configuration, SQL database engine.
+Implements a self-contained, zero-configuration, SQL database engine
 
 
 

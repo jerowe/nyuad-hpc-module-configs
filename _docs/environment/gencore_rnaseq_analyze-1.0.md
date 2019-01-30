@@ -241,7 +241,7 @@ A set of tools and methods for making and manipulating transcript centric annota
 **Conda Channel:** bioconda
 
 #### Summary:
-The ability to efficiently represent and manipulate genomic annotations and alignments is playing a central role when it comes to analyzing high-throughput sequencing data (a.k.a. NGS data). The GenomicRanges package defines general purpose containers for storing and manipulating genomic intervals and variables defined along a genome. More specialized containers for representing and manipulating short alignments against a reference genome, or a matrix-like summarization of an experiment, are defined in the GenomicAlignments and SummarizedExperiment packages respectively. Both packages build on top of the GenomicRanges infrastructure.
+The ability to efficiently represent and manipulate genomic annotations and alignments is playing a central role when it comes to analyzing high-throughput sequencing data (a.k.a. NGS data). The GenomicRanges package defines general purpose containers for storing and manipulating genomic intervals and variables defined along a genome. More specialized containers for representing and manipulating short alignments against a reference genome, or a matrix-like summarization of an experiment, are defined in the GenomicAlignments and SummarizedExperiment packages, respectively. Both packages build on top of the GenomicRanges infrastructure.
 
 
 
@@ -461,7 +461,7 @@ Discover and load entry points from installed packages
 **Conda Channel:** conda-forge
 
 #### Summary:
-A library for configuring and customizing font access.
+A library for configuring and customizing font access
 
 
 
@@ -471,7 +471,7 @@ A library for configuring and customizing font access.
 **Conda Channel:** conda-forge
 
 #### Summary:
-A TrueType Font Library.
+A Free, High-Quality, and Portable Font Engine
 
 
 
@@ -668,20 +668,20 @@ A Portable Foreign Function Interface Library
 ### libgcc-ng
 **Version:** latest
 
-**Conda Channel:** default
+**Conda Channel:** conda-forge
 
 #### Summary:
-
+The GCC low-level runtime library
 
 
 
 ### libgcc
 **Version:** latest
 
-**Conda Channel:** default
+**Conda Channel:** conda-forge
 
 #### Summary:
-
+Shared libraries for the GNU Compiler Collection
 
 
 
@@ -701,7 +701,7 @@ Provides iconv for systems which don't have one (or that cannot convert from/to 
 **Conda Channel:** conda-forge
 
 #### Summary:
-PNG reference library.
+PNG reference library
 
 
 
@@ -728,10 +728,10 @@ A modern and easy-to-use crypto library.
 ### libstdcxx-ng
 **Version:** latest
 
-**Conda Channel:** default
+**Conda Channel:** conda-forge
 
 #### Summary:
-
+The GNU C++ Runtime Library
 
 
 
@@ -751,7 +751,7 @@ Support for the Tag Image File Format (TIFF).
 **Conda Channel:** conda-forge
 
 #### Summary:
-Portable uuid C library
+Portable uuid C library.
 
 
 
@@ -851,7 +851,7 @@ OpenSSL is an open-source implementation of the SSL and TLS protocols
 **Conda Channel:** conda-forge
 
 #### Summary:
-Universal markup converter (repackaged binaries).
+Universal markup converter (repackaged binaries)
 
 
 
@@ -1024,12 +1024,7 @@ messages so that your users know what they've done wrong.
 **Conda Channel:** conda-forge
 
 #### Summary:
-Implementations of functions which have been introduced in R since version 3.0.0.
-The backports are conditionally exported which results in R resolving the function
-names to the version shipped with R (if available) and uses the implemented backports
-as fallback. This way package developers can make use of the new functions without
-worrying about the minimum required R version.
-
+ Functions introduced or changed since R v3.0.0 are re-implemented in this package. The backports are conditionally exported in order to let R resolve the function name to either the implemented backport, or the respective base version, if available. Package developers can make use of new functions or arguments by selectively importing specific backports to support older installations.
 
 
 
@@ -1109,13 +1104,7 @@ Functions and datasets for bootstrapping from the book "Bootstrap Methods and Th
 **Conda Channel:** conda-forge
 
 #### Summary:
-Convert statistical analysis objects from R into tidy data frames, so that they can
-more easily be combined, reshaped and otherwise processed with tools like ''dplyr'',
-''tidyr'' and ''ggplot2''. The package provides three S3 generics: tidy, which summarizes
-a model''s statistical findings such as coefficients of a regression; augment, which
-adds columns to the original data such as predictions, residuals and cluster assignments;
-and glance, which provides a one-row summary of model-level statistics.
-
+Summarizes key information about statistical objects in tidy tibbles. This makes it easy to report results, create plots and consistently work with large numbers of models at once. Broom provides three verbs that  each provide different types of information about a model. tidy() summarizes information about model components such as coefficients of a regression. glance() reports information about an entire model, such as goodness of fit measures like AIC and BIC. augment() adds information about individual observations to a dataset, such as fitted values or influence measures.
 
 
 
@@ -1205,7 +1194,7 @@ A suite of tools designed to build attractive command line interfaces ('CLIs'). 
 **Conda Channel:** conda-forge
 
 #### Summary:
-
+Methods for Cluster analysis.  Much extended the original from Peter Rousseeuw, Anja Struyf and Mia Hubert, based on Kaufman and Rousseeuw (1990) "Finding Groups in Data".
 
 
 
@@ -1215,7 +1204,7 @@ A suite of tools designed to build attractive command line interfaces ('CLIs'). 
 **Conda Channel:** conda-forge
 
 #### Summary:
-
+Code analysis tools for R.
 
 
 
@@ -1255,7 +1244,7 @@ The curl() and curl_download() functions provide highly configurable drop-in rep
 **Conda Channel:** bioconda
 
 #### Summary:
-Fast aggregation of large data (e.g. 100GB in RAM), fast ordered joins, fast add/modify/delete of columns by group using no copies at all, list columns, a fast friendly file reader and parallel file writer. Offers a natural and flexible syntax, for faster development.
+Fast aggregation of large data (e.g. 100GB in RAM), fast ordered joins, fast add/modify/delete of columns by group using no copies at all, list columns, friendly and fast character-separated-value read/write. Offers a natural and flexible syntax, for faster development.
 
 
 
@@ -1355,7 +1344,7 @@ Support for the foreach looping construct.  Foreach is an idiom that allows for 
 **Conda Channel:** conda-forge
 
 #### Summary:
-
+Functions for reading and writing data stored by some versions of Epi Info, Minitab, S, SAS, SPSS, Stata, Systat and Weka and for reading and writing some dBase files.
 
 
 
@@ -1375,7 +1364,7 @@ Provides a function tidy_source() to format R source code. Spaces and indent wil
 **Conda Channel:** conda-forge
 
 #### Summary:
-
+Infrastructure for extended formulas with multiple parts on the right-hand side and/or multiple responses on the left-hand side (see <DOI:10.18637/jss.v034.i01>).
 
 
 
@@ -1415,7 +1404,7 @@ Various R programming tools for data manipulation, including
 **Conda Channel:** conda-forge
 
 #### Summary:
-
+Package designed to be used with Rscript to write ``#!'' shebang scripts that accept short and long flags/options. Many users will prefer using instead the packages optparse or argparse which add extra features like automatically generated help option and usage, support for default values, positional argument support, etc.
 
 
 
@@ -1435,6 +1424,13 @@ Various R programming tools for data manipulation, including
 **Conda Channel:** conda-forge
 
 #### Summary:
+Work with ''GitHub'' ''gists'' from ''R'' (e.g.,  <http://en.wikipedia.org/wiki/GitHub#Gist>,  <https://help.github.com/articles/about-gists/>).
+A ''gist'' is simply one or more files with code/text/images/etc. This package allows
+the user to create new ''gists'', update ''gists'' with new files, rename files,
+delete files, get and delete ''gists'', star and ''un-star'' ''gists'', fork ''gists'',
+open a ''gist'' in your default browser, get embed code for a ''gist'', list ''gist''
+''commits'', and get rate limit information when ''authenticated''. Some requests
+require authentication and some do not.
 
 
 
@@ -1445,7 +1441,7 @@ Various R programming tools for data manipulation, including
 **Conda Channel:** conda-forge
 
 #### Summary:
-
+Extremely efficient procedures for fitting the entire lasso or elastic-net regularization path for linear regression, logistic and multinomial regression models, Poisson regression and the Cox model. Two recent additions are the multiple-response Gaussian, and the grouped multinomial regression. The algorithm uses cyclical coordinate descent in a path-wise fashion, as described in the paper linked to via the URL below.
 
 
 
@@ -1495,7 +1491,7 @@ Provides a number of user-level functions to work with "grid" graphics, notably 
 **Conda Channel:** conda-forge
 
 #### Summary:
-
+Functions to assist in R programming, including: - assist in developing, updating, and maintaining R and R packages ('ask', 'checkRVersion', 'getDependencies', 'keywords', 'scat'), - calculate the logit and inverse logit transformations ('logit', 'inv.logit'), - test if a value is missing, empty or contains only NA and NULL values ('invalid'), - manipulate R's .Last function ('addLast'), - define macros ('defmacro'), - detect odd and even integers ('odd', 'even'), - convert strings containing non-ASCII characters (like single quotes) to plain ASCII ('ASCIIfy'), - perform a binary search ('binsearch'), - sort strings containing both numeric and character components ('mixedsort'), - create a factor variable from the quantiles of a continuous variable ('quantcut'), - enumerate permutations and combinations ('combinations', 'permutation'), - calculate and convert between fold-change and log-ratio ('foldchange', 'logratio2foldchange', 'foldchange2logratio'), - calculate probabilities and generate random numbers from Dirichlet distributions ('rdirichlet', 'ddirichlet'), - apply a function over adjacent subsets of a vector ('running'), - modify the TCP\_NODELAY ('de-Nagle') flag for socket objects, - efficient 'rbind' of data frames, even if the column names don't match ('smartbind'), - generate significance stars from p-values ('stars.pval'), - convert characters to/from ASCII codes.
 
 
 
@@ -1505,7 +1501,7 @@ Provides a number of user-level functions to work with "grid" graphics, notably 
 **Conda Channel:** conda-forge
 
 #### Summary:
-Import foreign statistical formats into R via the embedded 'ReadStat' C library (https://github.com/WizardMac/ReadStat).
+Import foreign statistical formats into R via the embedded 'ReadStat' C library, <https://github.com/WizardMac/ReadStat>.
 
 
 
@@ -1525,6 +1521,9 @@ Binning and plotting functions for hexagonal bins. Now uses and relies on grid g
 **Conda Channel:** conda-forge
 
 #### Summary:
+Provides syntax highlighting for R source code. Currently it supports LaTeX and HTML
+output. Source code of other languages is supported via Andre Simon's highlight
+package (http://www.andre-simon.de).
 
 
 
@@ -1535,7 +1534,7 @@ Binning and plotting functions for hexagonal bins. Now uses and relies on grid g
 **Conda Channel:** conda-forge
 
 #### Summary:
-
+Contains many functions useful for data analysis, high-level graphics, utility operations, functions for computing sample size and power, importing and annotating datasets, imputing missing values, advanced table making, variable clustering, character string manipulation, conversion of R objects to LaTeX and html code, and recoding variables.
 
 
 
@@ -1545,7 +1544,7 @@ Binning and plotting functions for hexagonal bins. Now uses and relies on grid g
 **Conda Channel:** conda-forge
 
 #### Summary:
-
+Implements an S3 class for storing and formatting time-of-day values, based on the 'difftime' class.
 
 
 
@@ -1555,7 +1554,7 @@ Binning and plotting functions for hexagonal bins. Now uses and relies on grid g
 **Conda Channel:** conda-forge
 
 #### Summary:
-
+Tables with state-of-the-art layout elements such as row spanners, column spanners, table spanners, zebra striping, and more. While allowing advanced layout, the underlying css-structure is simple in order to maximize compatibility with word processors such as 'MS Word' or 'LibreOffice'. The package also contains a few text formatting functions that help outputting text compatible with HTML/LaTeX.
 
 
 
@@ -1605,7 +1604,7 @@ Useful tools for working with HTTP organised by HTTP verbs (GET(), POST(), etc).
 **Conda Channel:** conda-forge
 
 #### Summary:
-
+An interface to the rich display capabilities of 'Jupyter' front-ends (e.g. 'Jupyter Notebook'). Designed to be used from a running 'IRkernel'.
 
 
 
@@ -1685,7 +1684,7 @@ A language extension to efficiently write functional programs in R. Syntax exten
 **Conda Channel:** conda-forge
 
 #### Summary:
-
+A powerful and elegant high-level data visualization system inspired by Trellis graphics, with an emphasis on multivariate data. Lattice is sufficient for typical graphics needs, and is also flexible enough to handle most nonstandard requirements. See ?Lattice for an introduction.
 
 
 
@@ -1715,6 +1714,9 @@ An alternative approach to non-standard evaluation using formulas. Provides a fu
 **Conda Channel:** conda-forge
 
 #### Summary:
+Fit linear and generalized linear mixed-effects models. The models and their components
+are represented using S4 classes and methods.  The core computational algorithms
+are implemented using the 'Eigen' C++ library for numerical linear algebra and 'RcppEigen' "glue".
 
 
 
@@ -1765,7 +1767,7 @@ Display of maps.  Projection code and larger maps are in separate packages ('map
 **Conda Channel:** conda-forge
 
 #### Summary:
-
+Provides R bindings to the 'Sundown' 'Markdown' rendering library (https://github.com/vmg/sundown). 'Markdown' is a plain-text formatting syntax that can be converted to 'XHTML' or other formats. See http://en.wikipedia.org/wiki/Markdown for more information about 'Markdown'.
 
 
 
@@ -1825,7 +1827,7 @@ High-performing functions operating on rows and columns of matrices, e.g. col / 
 **Conda Channel:** conda-forge
 
 #### Summary:
-
+GAMs, GAMMs and other generalized ridge regression with  multiple smoothing parameter estimation by GCV, REML or UBRE/AIC.  Includes a gam() function, a wide variety of smoothers, JAGS  support and distributions beyond the exponential family.
 
 
 
@@ -1835,7 +1837,7 @@ High-performing functions operating on rows and columns of matrices, e.g. col / 
 **Conda Channel:** conda-forge
 
 #### Summary:
-
+Guesses the MIME type from a filename extension using the data derived from /etc/mime.types in UNIX-type systems.
 
 
 
@@ -1885,7 +1887,7 @@ Functions for modelling that help you seamlessly integrate modelling into a pipe
 **Conda Channel:** conda-forge
 
 #### Summary:
-
+Provides easy access to, and manipulation of, the Munsell  colours. Provides a mapping between Munsell's  original notation (e.g. "5R 5/10") and hexadecimal strings suitable  for use directly in R graphics. Also provides utilities  to explore slices through the Munsell colour tree, to transform  Munsell colours and display colour palettes.
 
 
 
@@ -1895,7 +1897,7 @@ Functions for modelling that help you seamlessly integrate modelling into a pipe
 **Conda Channel:** conda-forge
 
 #### Summary:
-
+Fit and compare Gaussian linear and nonlinear mixed-effects models.
 
 
 
@@ -1935,7 +1937,7 @@ Bindings to OpenSSL libssl and libcrypto, plus custom SSH pubkey parsers. Suppor
 **Conda Channel:** conda-forge
 
 #### Summary:
-ZeroMQ' is a well-known library for high-performance asynchronous messaging in scalable, distributed applications.  This package provides high level R wrapper functions to easily utilize 'ZeroMQ'. We mainly focus on interactive client/server programming frameworks. For convenience, a minimal 'ZeroMQ' library (4.1.0 rc1) is shipped with 'pbdZMQ', which can be used if no system installation of 'ZeroMQ' is available.  A few wrapper functions compatible with 'rzmq' are also provided.
+'ZeroMQ' is a well-known library for high-performance asynchronous messaging in scalable, distributed applications.  This package provides high level R wrapper functions to easily utilize 'ZeroMQ'. We mainly focus on interactive client/server programming frameworks. For convenience, a minimal 'ZeroMQ' library (4.2.2) is shipped with 'pbdZMQ', which can be used if no system installation of 'ZeroMQ' is available.  A few wrapper functions compatible with 'rzmq' are also provided.
 
 
 
@@ -1975,7 +1977,7 @@ Set configuration options on a per-package basis. Options set by a given package
 **Conda Channel:** conda-forge
 
 #### Summary:
-
+ A simple header-only logging library for C++. Add 'LinkingTo: plogr' to 'DESCRIPTION', and '#include <plogr.h>' in your C++ modules to use it.
 
 
 
@@ -2025,7 +2027,7 @@ A general purpose toolbox for personality, psychometric theory and experimental 
 **Conda Channel:** conda-forge
 
 #### Summary:
-
+Specify, build, trade, and analyse quantitative financial trading strategies.
 
 
 
@@ -2035,7 +2037,7 @@ A general purpose toolbox for personality, psychometric theory and experimental 
 **Conda Channel:** conda-forge
 
 #### Summary:
-
+Estimation and inference methods for models of conditional quantiles:  Linear and nonlinear parametric and non-parametric (total variation penalized) models  for conditional quantiles of a univariate response and several methods for handling censored survival data.  Portfolio selection methods based on expected shortfall risk are also included.
 
 
 
@@ -2045,7 +2047,7 @@ A general purpose toolbox for personality, psychometric theory and experimental 
 **Conda Channel:** conda-forge
 
 #### Summary:
-The R6 package allows the creation of classes with reference semantics, similar to R's built-in reference classes. Compared to reference classes, R6 classes are simpler and lighter-weight, and they are not built on S4 classes so they do not require the methods package. These classes allow public and private members, and they support inheritance, even when the classes are defined in different packages.
+Creates classes with reference semantics, similar to R's built-in reference classes. Compared to reference classes, R6 classes are simpler and lighter-weight, and they are not built on S4 classes so they do not require the methods package. These classes allow public and private members, and they support inheritance, even when the classes are defined in different packages.
 
 
 
@@ -2055,7 +2057,7 @@ The R6 package allows the creation of classes with reference semantics, similar 
 **Conda Channel:** conda-forge
 
 #### Summary:
-
+Classification and regression based on a forest of trees using random inputs, based on Breiman (2001) <DOI:10.1023/A:1010933404324>.
 
 
 
@@ -2085,7 +2087,7 @@ A native R plotting library that provides a flexible declarative interface for c
 **Conda Channel:** conda-forge
 
 #### Summary:
-The 'Rcpp' package provides R functions as well as C++ classes which offer a seamless integration of R and C++. Many R data types and objects can be mapped back and forth to C++ equivalents which facilitates both writing of new code as well as easier integration of third-party libraries. Documentation  about 'Rcpp' is provided by several vignettes included in this package, via the  'Rcpp Gallery' site at <http://gallery.rcpp.org>, the paper by Eddelbuettel and  Francois (2011, JSS), and the book by Eddelbuettel (2013, Springer); see  'citation("Rcpp")' for details on these last two.
+The 'Rcpp' package provides R functions as well as C++ classes which offer a seamless integration of R and C++. Many R data types and objects can be mapped back and forth to C++ equivalents which facilitates both writing of new code as well as easier integration of third-party libraries. Documentation about 'Rcpp' is provided by several vignettes included in this package, via the 'Rcpp Gallery' site at <http://gallery.rcpp.org>, the paper by Eddelbuettel and Francois (2011, <doi:10.18637/jss.v040.i08>), the book by Eddelbuettel (2013, <doi:10.1007/978-1-4614-6868-4>) and the paper by Eddelbuettel and Balamuta (2018, <doi:10.1080/00031305.2017.1375990>); see 'citation("Rcpp")' for details.
 
 
 
@@ -2095,7 +2097,7 @@ The 'Rcpp' package provides R functions as well as C++ classes which offer a sea
 **Conda Channel:** conda-forge
 
 #### Summary:
-Armadillo is a templated C++ linear algebra library that aims towards a good balance between speed and ease of use. Integer, floating point and complex numbers are supported, as well as a subset of trigonometric and statistics functions. Various matrix decompositions are provided through optional integration with LAPACK and ATLAS libraries.
+'Armadillo' is a templated C++ linear algebra library (by Conrad Sanderson) that aims towards a good balance between speed and ease of use. Integer, floating point and complex numbers are supported, as well as a subset of trigonometric and statistics functions. Various matrix decompositions are provided through optional integration with LAPACK and ATLAS libraries. The 'RcppArmadillo' package includes the header files from the templated 'Armadillo' library. Thus users do not need to install 'Armadillo' itself in order to use 'RcppArmadillo'. From release 7.800.0 on, 'Armadillo' is licensed under Apache License 2; previous releases were under licensed as MPL 2.0 from version 3.800.0 onwards and LGPL-3 prior to that; 'RcppArmadillo' (the 'Rcpp' bindings/bridge to Armadillo) is licensed under the GNU GPL version 2 or later, as is the rest of 'Rcpp'. Note that Armadillo requires a fairly recent compiler; for the g++ family at least version 4.6.* is required. 
 
 
 
@@ -2127,7 +2129,7 @@ later, as is the rest of ''Rcpp''
 **Conda Channel:** conda-forge
 
 #### Summary:
-
+A wrapper for libcurl. Provides functions to allow one to compose general HTTP requests and provides convenient functions to fetch URIs, get & post forms, etc. and process the results returned by the Web server. This provides a great deal of control over the HTTP/FTP/... connection and the form of the request while providing a higher-level interface than is available just using R socket connections.  Additionally, the underlying implementation is robust and extensive, supporting FTP/FTPS/TFTP (uploads and downloads), SSL/HTTPS, telnet, dict, ldap, and also supports cookies, redirects, authentication, etc.
 
 
 
@@ -2147,7 +2149,7 @@ Read flat/tabular text files from disk (or a connection).
 **Conda Channel:** conda-forge
 
 #### Summary:
-Import excel files into R. Supports '.xls' via the embedded 'libxls' C library <https://sourceforge.net/projects/libxls/> and '.xlsx' via the embedded 'RapidXML' C++ library <https://rapidxml.sourceforge.net>. Works on Windows, Mac and Linux without external dependencies.
+Import excel files into R. Supports '.xls' via the embedded 'libxls' C library <https://github.com/evanmiller/libxls> and '.xlsx' via the embedded 'RapidXML' C++ library <https://rapidxml.sourceforge.net>. Works on Windows, Mac and Linux without external dependencies.
 
 
 
@@ -2247,7 +2249,7 @@ Robust, reliable and flexible paths to files below a project root. The 'root' of
 **Conda Channel:** conda-forge
 
 #### Summary:
-Embeds the 'SQLite' database engine in R and provides an interface compliant with the 'DBI' package. The source for the 'SQLite' engine (version 3.8.8.2) is included.
+Embeds the 'SQLite' database engine in R and provides an interface compliant with the 'DBI' package. The source for the 'SQLite' engine is included.
 
 
 
@@ -2277,7 +2279,7 @@ Embeds the 'SQLite' database engine in R and provides an interface compliant wit
 **Conda Channel:** conda-forge
 
 #### Summary:
-
+Translates a CSS3 selector into an equivalent XPath expression. This allows us to use CSS selectors when working with the XML package as it can only evaluate XPath expressions. Also provided are convenience functions useful for using CSS selectors on XML nodes. This package is a port of the Python package 'cssselect' (<https://cssselect.readthedocs.io/>).
 
 
 
@@ -2307,7 +2309,7 @@ Support for simple parallel computing in R.
 **Conda Channel:** conda-forge
 
 #### Summary:
-
+Tools for the reading and tokenization of R code. The 'sourcetools' package provides both an R and C++ interface for the tokenization of R code, and helpers for interacting with the tokenized representation of R code.
 
 
 
@@ -2317,7 +2319,7 @@ Support for simple parallel computing in R.
 **Conda Channel:** conda-forge
 
 #### Summary:
-
+Some basic linear algebra functionality for sparse matrices is provided:  including Cholesky decomposition and backsolving as well as  standard R subsetting and Kronecker products.
 
 
 
@@ -2337,7 +2339,7 @@ Support for simple parallel computing in R.
 **Conda Channel:** conda-forge
 
 #### Summary:
-Allows for fast, correct, consistent, portable, as well as convenient character string/text processing in every locale and any native encoding. Owing to the use of the ICU library, the package provides R users with platform-independent functions known to Java, Perl, Python, PHP, and Ruby programmers. Available features include: pattern searching (e.g., with ICU Java-like regular expressions or the Unicode Collation Algorithm), random string generation, case mapping, string transliteration, concatenation, Unicode normalization, date-time formatting and parsing, etc.
+Allows for fast, correct, consistent, portable, as well as convenient character string/text processing in every locale and any native encoding. Owing to the use of the 'ICU' library, the package provides 'R' users with platform-independent functions known to 'Java', 'Perl', 'Python', 'PHP', and 'Ruby' programmers. Available features include: pattern searching (e.g., with 'Java'-like regular expressions or the 'Unicode' collation algorithm), random string generation, case mapping, string transliteration, concatenation, Unicode normalization, date-time formatting and parsing, and many more.
 
 
 
@@ -2357,7 +2359,7 @@ Allows for fast, correct, consistent, portable, as well as convenient character 
 **Conda Channel:** conda-forge
 
 #### Summary:
-
+Contains the core survival analysis routines, including definition of Surv objects,  Kaplan-Meier and Aalen-Johansen (multi-state) curves, Cox models, and parametric accelerated failure time models.
 
 
 
@@ -2397,7 +2399,7 @@ A backend for the selecting functions of the 'tidyverse'. It makes it easy to im
 **Conda Channel:** conda-forge
 
 #### Summary:
-
+The 'tidyverse' is a set of packages that work in harmony because they share common data representations and 'API' design. This package is designed to make it easy to install and load multiple 'tidyverse' packages in a single step. Learn more about the 'tidyverse' at <https://github.com/hadley/tidyverse>.
 
 
 
@@ -2407,7 +2409,7 @@ A backend for the selecting functions of the 'tidyverse'. It makes it easy to im
 **Conda Channel:** conda-forge
 
 #### Summary:
-
+Functions and data to construct technical trading rules with R.
 
 
 
@@ -2457,7 +2459,7 @@ Port of the new 'matplotlib' color maps ('viridis' - the default -, 'magma', 'pl
 **Conda Channel:** conda-forge
 
 #### Summary:
-
+Work with XML files using a simple, consistent interface. Built on top of the 'libxml2' C library.
 
 
 
@@ -2467,7 +2469,7 @@ Port of the new 'matplotlib' color maps ('viridis' - the default -, 'magma', 'pl
 **Conda Channel:** conda-forge
 
 #### Summary:
-
+Many approaches for both reading and creating XML (and HTML) documents (including DTDs), both local and accessible via HTTP or FTP.  Also offers access to an 'XPath' "interpreter".
 
 
 
@@ -2477,7 +2479,7 @@ Port of the new 'matplotlib' color maps ('viridis' - the default -, 'magma', 'pl
 **Conda Channel:** conda-forge
 
 #### Summary:
-
+Coerce data to LaTeX and HTML tables.
 
 
 
@@ -2577,7 +2579,7 @@ Python 2 and 3 compatibility utilities
 **Conda Channel:** conda-forge
 
 #### Summary:
-Implements a self-contained, zero-configuration, SQL database engine.
+Implements a self-contained, zero-configuration, SQL database engine
 
 
 
@@ -2617,9 +2619,7 @@ A dynamic programming language with GUI support.  Bundles Tcl and Tk.
 **Conda Channel:** conda-forge
 
 #### Summary:
-Tornado is a Python web framework and asynchronous networking library,
-originally developed at FriendFeed.
-
+A Python web framework and asynchronous networking library, originally developed at FriendFeed.
 
 
 
@@ -2699,7 +2699,7 @@ A built-package format for Python.
 **Conda Channel:** conda-forge
 
 #### Summary:
-
+The X.org core session management library.
 
 
 

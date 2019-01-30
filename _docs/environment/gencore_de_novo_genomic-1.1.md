@@ -302,7 +302,7 @@ SPAdes (St. Petersburg genome assembler) is intended for both standard isolates 
 **Conda Channel:** bioconda
 
 #### Summary:
-Genetic variant annotation and effect prediction toolbox
+A flexible read trimming tool for Illumina NGS data
 
 
 

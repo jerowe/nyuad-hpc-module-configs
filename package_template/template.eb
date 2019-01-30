@@ -17,11 +17,11 @@ description = """ {{ name }} """
 
 toolchain = {'name': 'dummy', 'version': ''}
 
-builddependencies = [('Anaconda3', '5.0.1')]
+builddependencies = [('Anaconda3', '5.3.0')]
 
 #sources = ["environment.yml"]
 #environment_file = sources[0]
-remote_environment="nyuad-cgsb/{{ name }}"
+remote_environment="nyuad-cgsb/{{ name }}-{{version}}"
 
 sanity_check_paths = {
     'files': ["bin/conda"],
