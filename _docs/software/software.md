@@ -29,6 +29,7 @@ BCFtools is a set of utilities that manipulate variant calls in the Variant Call
 
 * gencore_aligners-2.0
 * gencore_rnaseq_align-2.0
+* gencore_rnaseq_quant-2.0
 * gencore_variant_detection-2.0
 
 
@@ -137,6 +138,22 @@ The BWA read mapper.
 ### HPC Modules
 
 * gencore_rnaseq_align-2.0
+* gencore_rnaseq_quant-2.0
+
+
+## Cufflinks
+
+### Summary
+
+Transcriptome assembly and differential expression analysis for RNA-Seq.
+
+**Version:** 2.2.1
+
+**Conda Channel:** bioconda
+
+### HPC Modules
+
+* gencore_rnaseq_quant-2.0
 
 
 ## Deeptools
@@ -275,6 +292,21 @@ graph-based alignment of next generation sequencing reads to a population of gen
 * gencore_rnaseq_align-2.0
 
 
+## Htseq
+
+### Summary
+
+HTSeq is a Python library to facilitate processing and analysis of data from high-throughput sequencing (HTS) experiments.
+
+**Version:** 0.6.1.post1
+
+**Conda Channel:** bioconda
+
+### HPC Modules
+
+* gencore_rnaseq_quant-2.0
+
+
 ## Kallisto
 
 ### Summary
@@ -291,6 +323,36 @@ Quantifying abundances of transcripts from RNA-Seq data, or more generally of ta
 * gencore_rnaseq_align-2.0
 
 
+## Libdeflate
+
+### Summary
+
+libdeflate is a library for fast, whole-buffer DEFLATE-based compression and decompression.
+
+**Version:** 0.8
+
+**Conda Channel:** bioconda
+
+### HPC Modules
+
+* gencore_rnaseq_quant-2.0
+
+
+## Matplotlib
+
+### Summary
+
+Publication quality figures in Python
+
+**Version:** 2.2.2
+
+**Conda Channel:** conda-forge
+
+### HPC Modules
+
+* gencore_rnaseq_quant-2.0
+
+
 ## Multiqc
 
 ### Summary
@@ -304,6 +366,21 @@ Create aggregate bioinformatics analysis reports across many samples and tools
 ### HPC Modules
 
 * gencore_qc-2.0
+
+
+## Numpy
+
+### Summary
+
+Array processing for numbers, strings, records, and objects.
+
+**Version:** 1.14.3
+
+**Conda Channel:** conda-forge
+
+### HPC Modules
+
+* gencore_rnaseq_quant-2.0
 
 
 ## Pear
@@ -396,6 +473,21 @@ Script to manipulate FASTA and FASTQ files, plus API for developers
 * gencore_qc-2.0
 
 
+## Pysam
+
+### Summary
+
+Pysam is a python module for reading and manipulating Samfiles. It is a lightweight wrapper of the samtools C-API. Pysam also includes an interface for tabix.
+
+**Version:** 0.10.0
+
+**Conda Channel:** bioconda
+
+### HPC Modules
+
+* gencore_rnaseq_quant-2.0
+
+
 ## Python
 
 ### Summary
@@ -486,6 +578,7 @@ Tools for dealing with SAM, BAM and CRAM files
 
 * gencore_aligners-2.0
 * gencore_rnaseq_align-2.0
+* gencore_rnaseq_quant-2.0
 * gencore_variant_detection-2.0
 
 
@@ -548,6 +641,21 @@ An RNA-seq read aligner.
 
 * gencore_aligners-2.0
 * gencore_rnaseq_align-2.0
+
+
+## Stringtie
+
+### Summary
+
+Transcriptome assembly and quantification for RNA-seq
+
+**Version:** 1.3.0
+
+**Conda Channel:** bioconda
+
+### HPC Modules
+
+* gencore_rnaseq_quant-2.0
 
 
 ## Tophat
